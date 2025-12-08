@@ -1,9 +1,12 @@
 import nltk
-from nltk.tokenize import word_tokenize
+from nltk.tokenize import word_tokenize, sent_tokenize
 import json
 from pathlib import Path
 import time
-from datetime import datetime
+import tkinter as tk
+from tkinter import ttk, scrolledtext, messagebox
+import sys
+import re
 
 # 配置NLTK数据路径
 current_script_dir = Path(__file__).resolve().parent
@@ -12,6 +15,9 @@ absolute_nltk_data_path = str(relative_data_path)
 
 if absolute_nltk_data_path not in nltk.data.path:
     nltk.data.path.append(absolute_nltk_data_path)
+
+# 统一测试数据文件路径
+TEST_DATA_FILE = current_script_dir / 'test_data.json'
 
 class SentenceClassifier:
     """句子分类器"""
@@ -29,6 +35,77 @@ class SentenceClassifier:
         self.strong_emotion_words = ['wow', 'awesome', 'amazing', 'terrible', 
                                    'horrible', 'fantastic', 'incredible', 
                                    'unbelievable', 'excellent', 'perfect']
+        
+        # 英语常见单词模式（用于验证单词合法性）
+        self.english_word_pattern = re.compile(r'^[A-Za-z\-\'\.\,\!\?\;]+$')
+        
+        # 常见英文缩写
+        self.common_abbreviations = ["mr.", "mrs.", "ms.", "dr.", "st.", "ave.", "blvd.", 
+                                    "etc.", "e.g.", "i.e.", "vs.", "jr.", "sr.", "prof."]
+    
+    def is_valid_word(self, word):
+        """检查单词是否合法"""
+        # 跳过常见标点符号
+        if word in ['.', ',', '!', '?', ';', ':', "'", '"', '(', ')', '[', ']', '{', '}']:
+            return True
+            
+        # 检查是否是常见缩写
+        if word.lower() in self.common_abbreviations:
+            return True
+            
+        # 检查是否符合英文单词模式（字母、连字符、撇号）
+        if self.english_word_pattern.match(word):
+            return True
+            
+        # 检查是否包含数字（可能是年份、时间等）
+        if any(char.isdigit() for char in word):
+            return True
+            
+        return False
+    
+    def is_complete_sentence(self, text, tokens):
+        """判断是否是一个完整的句子"""
+        # 1. 检查是否有足够的单词
+        if len(tokens) < 2:
+            # 单个单词可能是感叹词、命令等
+            if len(tokens) == 1:
+                single_word = tokens[0].lower()
+                # 允许的单个单词情况
+                allowed_single_words = ['hello', 'hi', 'stop', 'go', 'wait', 'help', 
+                                       'yes', 'no', 'ok', 'wow', 'oh', 'hey']
+                if single_word in allowed_single_words:
+                    return True
+            return False
+        
+        # 2. 检查是否有异常单词
+        invalid_word_count = sum(1 for token in tokens if not self.is_valid_word(token))
+        if invalid_word_count / len(tokens) > 0.3:  # 超过30%的单词异常
+            return False
+        
+        # 3. 检查是否有谓语动词
+        try:
+            tagged = nltk.pos_tag(tokens)
+            # 检查是否有动词（VB, VBD, VBG, VBN, VBP, VBZ）
+            has_verb = any(tag.startswith('VB') for _, tag in tagged)
+            
+            # 检查是否有名词或代词（确保句子有主语或宾语）
+            has_noun_or_pronoun = any(tag in ['NN', 'NNS', 'NNP', 'NNPS', 'PRP', 'PRP$'] for _, tag in tagged)
+            
+            # 完整句子通常需要有动词，以及名词/代词（除非是祈使句）
+            if not has_verb:
+                return False
+                
+        except Exception:
+            # 如果词性标注失败，则依赖其他规则
+            pass
+        
+        # 4. 检查句子是否以大写字母开头（英文句子规范）
+        if text and text[0].islower():
+            # 允许小写开头的情况：引用中的句子、诗歌等，但通常英文句子以大写开头
+            # 这里放宽要求，不强制大写开头
+            pass
+        
+        return True
     
     def classify(self, text):
         """
@@ -57,6 +134,11 @@ class SentenceClassifier:
             tokens = word_tokenize(clean_text)
             if not tokens:
                 return "Other (其他)"
+            
+            # 检查是否是完整句子
+            if not self.is_complete_sentence(text, tokens):
+                return "Other (其他)"
+            
             tagged = nltk.pos_tag(tokens)
         except Exception:
             return "Other (其他)"
@@ -124,96 +206,379 @@ class SentenceClassifier:
             return "陈述句"
         else:
             return "其他"
+    
+    def classify_single(self, text):
+        """单个句子分类接口"""
+        result = self.classify(text)
+        return self.simplify_label(result)
+    
+    def classify_paragraph(self, paragraph):
+        """段落分类：分割成多个句子并分别分类"""
+        sentences = sent_tokenize(paragraph.strip())
+        results = []
+        for sentence in sentences:
+            if sentence.strip():  # 跳过空句子
+                result = self.classify_single(sentence)
+                results.append((sentence.strip(), result))
+        return results
 
-def load_test_data(filename="test_data.json"):
-    """加载测试数据"""
-    file_path = Path(filename)
-    if not file_path.exists():
-        print(f"错误：测试文件 {filename} 不存在")
-        print("请先运行 generate_test_data.py 生成测试数据")
-        return []
-    
-    with open(file_path, 'r', encoding='utf-8') as f:
-        data = json.load(f)
-    
-    return [(item["sentence"], item["label"]) for item in data]
-
-def run_test(test_data, classifier, sample_size=None):
-    """运行测试"""
-    if sample_size and sample_size < len(test_data):
-        import random
-        test_data = random.sample(test_data, sample_size)
-    
-    print(f"开始测试，数据量: {len(test_data)} 条")
-    print("-" * 60)
-    
-    start_time = time.time()
-    
-    results = []
-    correct_count = 0
-    
-    for i, (sentence, expected_label) in enumerate(test_data, 1):
-        # 分类
-        classified_label = classifier.classify(sentence)
-        simplified_label = classifier.simplify_label(classified_label)
+# ========== GUI 界面 ==========
+class SentenceClassifierGUI:
+    def __init__(self, root):
+        self.root = root
+        self.root.title("英文句式分类器")
+        self.root.geometry("700x600")
         
-        # 检查是否正确
-        is_correct = (simplified_label == expected_label)
-        if is_correct:
-            correct_count += 1
+        # 创建分类器实例
+        self.classifier = SentenceClassifier()
         
-        results.append({
-            "sentence": sentence,
-            "expected": expected_label,
-            "actual": simplified_label,
-            "is_correct": is_correct
-        })
+        self.setup_ui()
+    
+    def setup_ui(self):
+        # 主框架
+        main_frame = ttk.Frame(self.root, padding="10")
+        main_frame.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
         
-        # 每100条显示一次进度
-        if i % 100 == 0:
-            accuracy_so_far = correct_count / i * 100
-            print(f"已处理 {i}/{len(test_data)} 条，当前正确率: {accuracy_so_far:.2f}%")
+        # 标题
+        title_label = ttk.Label(main_frame, text="英文句式分类器", font=("Arial", 16, "bold"))
+        title_label.grid(row=0, column=0, columnspan=2, pady=(0, 10))
+        
+        # 输入标签
+        input_label = ttk.Label(main_frame, text="输入英文句子或段落:")
+        input_label.grid(row=1, column=0, sticky=tk.W, pady=(0, 5))
+        
+        # 输入文本框
+        self.input_text = scrolledtext.ScrolledText(main_frame, width=70, height=10, wrap=tk.WORD)
+        self.input_text.grid(row=2, column=0, columnspan=2, pady=(0, 10))
+        self.input_text.insert("1.0", "请输入英文句子或段落...")
+        
+        # 示例按钮
+        example_frame = ttk.Frame(main_frame)
+        example_frame.grid(row=3, column=0, columnspan=2, pady=(0, 10))
+        
+        ttk.Label(example_frame, text="示例:").pack(side=tk.LEFT, padx=(0, 10))
+        
+        examples = [
+            "Close the window.",
+            "Do you like coffee?",
+            "What a beautiful day!",
+            "She reads books. He writes stories."
+        ]
+        for example in examples:
+            btn = ttk.Button(example_frame, text=example[:15]+"..." if len(example) > 15 else example, 
+                           command=lambda e=example: self.insert_example(e))
+            btn.pack(side=tk.LEFT, padx=2)
+        
+        # 分类按钮
+        classify_btn = ttk.Button(main_frame, text="分类", command=self.classify_text, width=20)
+        classify_btn.grid(row=4, column=0, columnspan=2, pady=(0, 15))
+        
+        # 结果区域
+        result_frame = ttk.LabelFrame(main_frame, text="分类结果", padding="10")
+        result_frame.grid(row=5, column=0, columnspan=2, sticky=(tk.W, tk.E), pady=(0, 10))
+        
+        # 结果文本框
+        self.result_text = scrolledtext.ScrolledText(result_frame, width=65, height=15, wrap=tk.WORD)
+        self.result_text.grid(row=0, column=0, sticky=(tk.W, tk.E))
+        
+        # 批量测试按钮
+        test_btn = ttk.Button(main_frame, text="批量测试", command=self.run_batch_test, width=20)
+        test_btn.grid(row=6, column=0, pady=(10, 0), padx=(0, 5))
+        
+        # 清除按钮
+        clear_btn = ttk.Button(main_frame, text="清除", command=self.clear_text, width=20)
+        clear_btn.grid(row=6, column=1, pady=(10, 0), padx=(5, 0))
+        
+        # 状态栏
+        self.status_label = ttk.Label(main_frame, text="就绪", relief=tk.SUNKEN)
+        self.status_label.grid(row=7, column=0, columnspan=2, sticky=(tk.W, tk.E), pady=(10, 0))
     
-    end_time = time.time()
-    elapsed_time = end_time - start_time
+    def insert_example(self, example):
+        """插入示例句子"""
+        self.input_text.delete("1.0", tk.END)
+        self.input_text.insert("1.0", example)
     
-    # 计算统计信息
-    accuracy = correct_count / len(test_data) * 100
+    def classify_text(self):
+        """分类文本（单句或段落）"""
+        text = self.input_text.get("1.0", tk.END).strip()
+        if not text or text == "请输入英文句子或段落...":
+            messagebox.showwarning("警告", "请输入英文文本")
+            return
+        
+        self.status_label.config(text="正在分类...")
+        self.root.update()
+        
+        try:
+            start_time = time.time()
+            
+            # 判断是否可能是段落（包含多个句子）
+            sentences = sent_tokenize(text)
+            
+            if len(sentences) == 1:
+                # 单个句子
+                result = self.classifier.classify_single(text)
+                elapsed_time = (time.time() - start_time) * 1000
+                
+                self.result_text.delete("1.0", tk.END)
+                self.result_text.insert("1.0", f"输入: {text}\n\n")
+                self.result_text.insert(tk.END, f"分类结果: {result}\n")
+                self.result_text.insert(tk.END, f"处理时间: {elapsed_time:.2f} 毫秒\n")
+            else:
+                # 多个句子
+                results = self.classifier.classify_paragraph(text)
+                elapsed_time = (time.time() - start_time) * 1000
+                
+                self.result_text.delete("1.0", tk.END)
+                self.result_text.insert("1.0", f"输入段落（{len(sentences)}个句子）:\n")
+                self.result_text.insert(tk.END, f"{text}\n\n")
+                self.result_text.insert(tk.END, "="*50 + "\n")
+                
+                for i, (sentence, result) in enumerate(results, 1):
+                    self.result_text.insert(tk.END, f"句子 {i}: {sentence}\n")
+                    self.result_text.insert(tk.END, f"    句型: {result}\n\n")
+                
+                self.result_text.insert(tk.END, f"总处理时间: {elapsed_time:.2f} 毫秒\n")
+            
+            self.status_label.config(text="分类完成")
+            
+        except Exception as e:
+            messagebox.showerror("错误", f"分类时发生错误: {str(e)}")
+            self.status_label.config(text="分类失败")
     
-    print("-" * 60)
-    print(f"总耗时: {elapsed_time:.2f} 秒")
-    print(f"平均每条处理时间: {elapsed_time/len(test_data)*1000:.2f} 毫秒")
-    print(f"正确率: {accuracy:.2f}% ({correct_count}/{len(test_data)})")
+    def run_batch_test(self):
+        """运行批量测试"""
+        if not TEST_DATA_FILE.exists():
+            messagebox.showwarning("警告", f"测试文件 {TEST_DATA_FILE} 不存在\n请先运行 generate_test_data.py 生成测试数据")
+            return
+        
+        # 创建批量测试窗口
+        batch_window = tk.Toplevel(self.root)
+        batch_window.title("批量测试")
+        batch_window.geometry("500x400")
+        
+        # 主框架
+        main_frame = ttk.Frame(batch_window, padding="10")
+        main_frame.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
+        
+        # 标题
+        title_label = ttk.Label(main_frame, text="批量测试", font=("Arial", 14, "bold"))
+        title_label.grid(row=0, column=0, pady=(0, 10))
+        
+        # 加载测试数据
+        try:
+            with open(TEST_DATA_FILE, 'r', encoding='utf-8') as f:
+                test_data = json.load(f)
+            
+            total_count = len(test_data)
+            
+            # 测试信息
+            info_label = ttk.Label(main_frame, text=f"测试数据: {total_count} 条")
+            info_label.grid(row=1, column=0, pady=(0, 10))
+            
+            # 进度条
+            progress = ttk.Progressbar(main_frame, length=300, mode='indeterminate')
+            progress.grid(row=2, column=0, pady=(0, 10))
+            
+            # 结果文本框
+            result_text = scrolledtext.ScrolledText(main_frame, width=50, height=15, wrap=tk.WORD)
+            result_text.grid(row=3, column=0, pady=(0, 10))
+            
+            # 开始测试按钮
+            def start_test():
+                progress.start()
+                result_text.delete("1.0", tk.END)
+                result_text.insert("1.0", "开始测试...\n")
+                batch_window.update()
+                
+                start_time = time.time()
+                correct_count = 0
+                
+                for i, item in enumerate(test_data, 1):
+                    sentence = item["sentence"]
+                    expected = item["label"]
+                    
+                    actual = self.classifier.classify_single(sentence)
+                    
+                    if actual == expected:
+                        correct_count += 1
+                    
+                    # 每100条更新一次进度
+                    if i % 100 == 0:
+                        result_text.insert(tk.END, f"已处理 {i}/{total_count} 条...\n")
+                        batch_window.update()
+                
+                elapsed_time = time.time() - start_time
+                accuracy = correct_count / total_count * 100
+                
+                progress.stop()
+                
+                # 显示结果
+                result_text.insert(tk.END, "\n" + "="*50 + "\n")
+                result_text.insert(tk.END, f"测试完成！\n")
+                result_text.insert(tk.END, f"总数据量: {total_count} 条\n")
+                result_text.insert(tk.END, f"正确分类: {correct_count} 条\n")
+                result_text.insert(tk.END, f"正确率: {accuracy:.2f}%\n")
+                result_text.insert(tk.END, f"总耗时: {elapsed_time:.2f} 秒\n")
+                result_text.insert(tk.END, f"平均每条: {elapsed_time/total_count*1000:.2f} 毫秒\n")
+            
+            test_btn = ttk.Button(main_frame, text="开始测试", command=start_test, width=20)
+            test_btn.grid(row=4, column=0)
+            
+        except Exception as e:
+            error_label = ttk.Label(main_frame, text=f"加载测试数据失败: {str(e)}", foreground="red")
+            error_label.grid(row=1, column=0, pady=20)
     
-    return results, accuracy, elapsed_time
+    def clear_text(self):
+        """清除文本框内容"""
+        self.input_text.delete("1.0", tk.END)
+        self.result_text.delete("1.0", tk.END)
+        self.status_label.config(text="已清除")
 
-
-def main():
-    print("\n" + "=" * 60)
+# ========== 命令行接口 ==========
+def command_line_interface():
+    """命令行接口"""
+    print("=" * 60)
+    print("英文句式分类器 - 命令行模式")
+    print("=" * 60)
+    print("输入 'quit' 或 'exit' 退出")
+    print("输入 'test' 运行批量测试")
+    print("=" * 60)
     
-    # 1. 创建分类器
     classifier = SentenceClassifier()
     
-    # 2. 加载测试数据
-    test_data = load_test_data()
-    if not test_data:
+    while True:
+        try:
+            text = input("\n请输入英文句子或段落: ").strip()
+            
+            if text.lower() in ['quit', 'exit', 'q']:
+                print("再见！")
+                break
+            
+            if text.lower() == 'test':
+                run_batch_test_from_cli()
+                continue
+            
+            if not text:
+                continue
+            
+            start_time = time.time()
+            
+            # 判断是否可能是段落
+            sentences = sent_tokenize(text)
+            
+            if len(sentences) == 1:
+                result = classifier.classify_single(text)
+                elapsed_time = (time.time() - start_time) * 1000
+                print(f"分类结果: {result}")
+                print(f"处理时间: {elapsed_time:.2f} 毫秒")
+            else:
+                results = classifier.classify_paragraph(text)
+                elapsed_time = (time.time() - start_time) * 1000
+                
+                print(f"\n输入段落（{len(sentences)}个句子）:")
+                print("=" * 50)
+                
+                for i, (sentence, result) in enumerate(results, 1):
+                    print(f"句子 {i}: {sentence}")
+                    print(f"    句型: {result}")
+                    print()
+                
+                print(f"总处理时间: {elapsed_time:.2f} 毫秒")
+            
+        except KeyboardInterrupt:
+            print("\n程序已退出")
+            break
+        except Exception as e:
+            print(f"错误: {e}")
+
+def run_batch_test_from_cli():
+    """命令行批量测试"""
+    if not TEST_DATA_FILE.exists():
+        print(f"错误：测试文件 {TEST_DATA_FILE} 不存在")
+        print("请先运行 generate_test_data.py 生成测试数据")
         return
     
-    print(f"成功加载 {len(test_data)} 条测试数据")
-    
-    # 3. 运行测试
-    results, accuracy, elapsed_time = run_test(test_data, classifier)
-    
-    
-    print("\n" + "=" * 60)
-    print("测试完成!")
-    print("=" * 60)
+    try:
+        with open(TEST_DATA_FILE, 'r', encoding='utf-8') as f:
+            test_data = json.load(f)
+        
+        total_count = len(test_data)
+        classifier = SentenceClassifier()
+        
+        print(f"\n开始批量测试，数据量: {total_count} 条")
+        print("-" * 60)
+        
+        start_time = time.time()
+        correct_count = 0
+        
+        for i, item in enumerate(test_data, 1):
+            sentence = item["sentence"]
+            expected = item["label"]
+            
+            actual = classifier.classify_single(sentence)
+            
+            if actual == expected:
+                correct_count += 1
+            
+            # 每100条显示一次进度
+            if i % 100 == 0:
+                accuracy_so_far = correct_count / i * 100
+                print(f"已处理 {i}/{total_count} 条，当前正确率: {accuracy_so_far:.2f}%")
+        
+        elapsed_time = time.time() - start_time
+        accuracy = correct_count / total_count * 100
+        
+        print("-" * 60)
+        print(f"测试完成！")
+        print(f"总数据量: {total_count} 条")
+        print(f"正确分类: {correct_count} 条")
+        print(f"正确率: {accuracy:.2f}%")
+        print(f"总耗时: {elapsed_time:.2f} 秒")
+        print(f"平均每条: {elapsed_time/total_count*1000:.2f} 毫秒")
+        
+    except Exception as e:
+        print(f"批量测试失败: {e}")
 
+# ========== 主函数 ==========
+def main():
+    """主函数：根据参数决定运行模式"""
+    # 检查NLTK数据是否可用
+    try:
+        nltk.data.find('tokenizers/punkt')
+        print("NLTK数据加载成功")
+    except LookupError:
+        print("警告: NLTK数据未找到，请确保已正确下载")
+        print(f"数据路径: {absolute_nltk_data_path}")
+    
+    if len(sys.argv) > 1:
+        mode = sys.argv[1].lower()
+        
+        if mode == "cli":
+            # 命令行模式
+            command_line_interface()
+        elif mode == "gui":
+            # GUI模式（默认）
+            run_gui()
+        elif mode == "test":
+            # 批量测试模式
+            run_batch_test_from_cli()
+        else:
+            print(f"未知模式: {mode}")
+            print("可用模式: gui, cli, test")
+    else:
+        # 默认运行GUI模式
+        run_gui()
+
+def run_gui():
+    """运行GUI界面"""
+    root = tk.Tk()
+    app = SentenceClassifierGUI(root)
+    
+    # 使窗口可调整大小
+    root.columnconfigure(0, weight=1)
+    root.rowconfigure(0, weight=1)
+    
+    root.mainloop()
 
 if __name__ == "__main__":
-    # 检查测试数据文件是否存在
-    test_file = Path("test_data.json")
-    if test_file.exists():
-        # 运行完整测试
-        main()
-       
+    main()
