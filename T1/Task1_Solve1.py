@@ -34,7 +34,8 @@ class SentenceClassifier:
         # 强烈情感词
         self.strong_emotion_words = ['wow', 'awesome', 'amazing', 'terrible', 
                                    'horrible', 'fantastic', 'incredible', 
-                                   'unbelievable', 'excellent', 'perfect']
+                                   'unbelievable', 'excellent', 'perfect', 
+                                   'wonderful', 'great', 'brilliant']
         
         # 英语常见单词模式（用于验证单词合法性）
         self.english_word_pattern = re.compile(r'^[A-Za-z\-\'\.\,\!\?\;]+$')
@@ -72,7 +73,8 @@ class SentenceClassifier:
                 single_word = tokens[0].lower()
                 # 允许的单个单词情况
                 allowed_single_words = ['hello', 'hi', 'stop', 'go', 'wait', 'help', 
-                                       'yes', 'no', 'ok', 'wow', 'oh', 'hey']
+                                       'yes', 'no', 'ok', 'wow', 'oh', 'hey', 'thanks',
+                                       'please', 'sorry', 'goodbye']
                 if single_word in allowed_single_words:
                     return True
             return False
@@ -92,17 +94,13 @@ class SentenceClassifier:
             has_noun_or_pronoun = any(tag in ['NN', 'NNS', 'NNP', 'NNPS', 'PRP', 'PRP$'] for _, tag in tagged)
             
             # 完整句子通常需要有动词，以及名词/代词（除非是祈使句）
-            if not has_verb:
+            # 对于感叹句（如"What a beautiful day!"），可能没有动词
+            # 所以放宽这个要求
+            if not has_verb and not has_noun_or_pronoun:
                 return False
                 
         except Exception:
             # 如果词性标注失败，则依赖其他规则
-            pass
-        
-        # 4. 检查句子是否以大写字母开头（英文句子规范）
-        if text and text[0].islower():
-            # 允许小写开头的情况：引用中的句子、诗歌等，但通常英文句子以大写开头
-            # 这里放宽要求，不强制大写开头
             pass
         
         return True
@@ -146,14 +144,58 @@ class SentenceClassifier:
         first_word = tokens[0].lower()
         first_tag = tagged[0][1] if tagged else ''
         
-        # 3. 疑问句判断（最高优先级）
+        # 3. 感叹句判断（提前到疑问句之前，因为What开头的句子可能是感叹句）
+        # 特征1：以What/How开头的感叹句
+        if first_word in ['what', 'how'] and has_exclamation:
+            # 检查后续结构
+            if len(tokens) >= 2:
+                if first_word == 'what':
+                    # What + a/an + 形容词 + 名词结构（如"What a beautiful day!")
+                    # 或者 What + 形容词 + 名词结构（如"What beautiful weather!")
+                    second_word = tokens[1].lower()
+                    if second_word in ['a', 'an']:
+                        # What a/an + 形容词 + 名词
+                        return "Exclamatory (感叹句)"
+                    else:
+                        # 检查第二个词是否是形容词
+                        second_tag = tagged[1][1] if len(tagged) > 1 else ''
+                        if second_tag in ['JJ', 'JJR', 'JJS']:  # 形容词
+                            return "Exclamatory (感叹句)"
+                elif first_word == 'how':
+                    # How + 形容词/副词结构（如"How beautiful!", "How quickly!")
+                    second_tag = tagged[1][1] if len(tagged) > 1 else ''
+                    if second_tag in ['JJ', 'JJR', 'JJS', 'RB', 'RBR', 'RBS']:  # 形容词或副词
+                        return "Exclamatory (感叹句)"
+        
+        # 特征2：强烈情感+感叹号
+        if has_exclamation:
+            # 检查文本中是否包含强烈情感词
+            text_lower = text.lower()
+            if any(word in text_lower for word in self.strong_emotion_words):
+                return "Exclamatory (感叹句)"
+            # 检查是否有明显的感叹词
+            exclamatory_words = ['oh', 'ah', 'wow', 'ooh', 'aah', 'ugh', 'phew', 'yikes', 'yay']
+            if any(word in text_lower.split() for word in exclamatory_words):
+                return "Exclamatory (感叹句)"
+        
+        # 4. 疑问句判断（最高优先级）
         # 情况1：以问号结尾
         if has_question_mark:
-            return "Interrogative (疑问句)"
+            # 排除"What a ...!"被误判为疑问句的情况
+            if first_word == 'what' and has_exclamation:
+                # 已经在感叹句部分处理过了
+                pass
+            else:
+                return "Interrogative (疑问句)"
         
         # 情况2：以疑问词开头
         if first_word in self.question_words or first_word in self.wh_question_words:
-            return "Interrogative (疑问句)"
+            # 排除感叹句的情况
+            if first_word in ['what', 'how'] and has_exclamation:
+                # 已经在感叹句部分处理过了
+                pass
+            else:
+                return "Interrogative (疑问句)"
         
         # 情况3：倒装语序（助动词在主语前）
         if len(tokens) > 1 and first_word in self.question_words:
@@ -161,7 +203,7 @@ class SentenceClassifier:
             if second_tag in ['PRP', 'NN', 'NNP', 'NNS']:  # 代词或名词
                 return "Interrogative (疑问句)"
         
-        # 4. 祈使句判断
+        # 5. 祈使句判断
         # 特征1：以动词原形开头（不包括be动词）
         imperative_indicators = [
             # 动词原形特征
@@ -176,20 +218,6 @@ class SentenceClassifier:
         
         if any(imperative_indicators):
             return "Imperative (祈使句)"
-        
-        # 5. 感叹句判断
-        # 特征1：以What/How开头的感叹句
-        if first_word in ['what', 'how'] and has_exclamation:
-            # 检查后续结构
-            if len(tokens) > 2:
-                second_word = tokens[1].lower()
-                if (first_word == 'what' and second_word in ['a', 'an']) or \
-                   (first_word == 'how' and tagged[1][1] in ['JJ', 'RB']):  # 形容词或副词
-                    return "Exclamatory (感叹句)"
-        
-        # 特征2：强烈情感+感叹号
-        if has_exclamation and any(word in clean_text.lower() for word in self.strong_emotion_words):
-            return "Exclamatory (感叹句)"
         
         # 6. 默认分类为陈述句
         return "Declarative (陈述句)"
@@ -227,7 +255,7 @@ class SentenceClassifierGUI:
     def __init__(self, root):
         self.root = root
         self.root.title("英文句式分类器")
-        self.root.geometry("700x600")
+        self.root.geometry("550x650")
         
         # 创建分类器实例
         self.classifier = SentenceClassifier()
@@ -538,6 +566,205 @@ def run_batch_test_from_cli():
         
     except Exception as e:
         print(f"批量测试失败: {e}")
+
+# ========== API 接口 ==========
+def create_classifier():
+    """创建分类器实例（API接口）"""
+    return SentenceClassifier()
+
+class ClassificationAPI:
+    """分类器API接口类"""
+    
+    def __init__(self):
+        self.classifier = SentenceClassifier()
+    
+    def classify_text(self, text):
+        """
+        分类文本API接口
+        
+        参数:
+            text (str): 输入的英文文本，可以是单个句子或段落
+        
+        返回:
+            dict: 包含分类结果的字典
+        """
+        if not text or not text.strip():
+            return {
+                "success": False,
+                "error": "输入文本不能为空",
+                "result": None
+            }
+        
+        try:
+            start_time = time.time()
+            
+            # 判断是否可能是段落（包含多个句子）
+            sentences = sent_tokenize(text.strip())
+            
+            if len(sentences) == 1:
+                # 单个句子
+                result = self.classifier.classify_single(text.strip())
+                elapsed_time = (time.time() - start_time) * 1000
+                
+                return {
+                    "success": True,
+                    "input_type": "single_sentence",
+                    "input": text.strip(),
+                    "result": result,
+                    "processing_time_ms": elapsed_time
+                }
+            else:
+                # 多个句子
+                results = self.classifier.classify_paragraph(text.strip())
+                elapsed_time = (time.time() - start_time) * 1000
+                
+                # 格式化结果
+                formatted_results = []
+                for i, (sentence, classification) in enumerate(results, 1):
+                    formatted_results.append({
+                        "sentence_index": i,
+                        "sentence": sentence,
+                        "classification": classification
+                    })
+                
+                return {
+                    "success": True,
+                    "input_type": "paragraph",
+                    "input": text.strip(),
+                    "sentence_count": len(sentences),
+                    "results": formatted_results,
+                    "processing_time_ms": elapsed_time
+                }
+                
+        except Exception as e:
+            return {
+                "success": False,
+                "error": str(e),
+                "input": text.strip(),
+                "result": None
+            }
+    
+    def batch_classify(self, texts):
+        """
+        批量分类API接口
+        
+        参数:
+            texts (list): 英文文本列表
+        
+        返回:
+            dict: 包含批量分类结果的字典
+        """
+        if not texts or not isinstance(texts, list):
+            return {
+                "success": False,
+                "error": "输入必须是文本列表",
+                "results": None
+            }
+        
+        try:
+            start_time = time.time()
+            results = []
+            
+            for i, text in enumerate(texts, 1):
+                if not text or not text.strip():
+                    results.append({
+                        "index": i,
+                        "success": False,
+                        "error": "文本为空",
+                        "input": text,
+                        "result": None
+                    })
+                    continue
+                
+                try:
+                    classification_result = self.classifier.classify_single(text.strip())
+                    results.append({
+                        "index": i,
+                        "success": True,
+                        "input": text.strip(),
+                        "result": classification_result
+                    })
+                except Exception as e:
+                    results.append({
+                        "index": i,
+                        "success": False,
+                        "error": str(e),
+                        "input": text.strip(),
+                        "result": None
+                    })
+            
+            elapsed_time = (time.time() - start_time) * 1000
+            
+            return {
+                "success": True,
+                "total_count": len(texts),
+                "success_count": sum(1 for r in results if r["success"]),
+                "failed_count": sum(1 for r in results if not r["success"]),
+                "results": results,
+                "total_processing_time_ms": elapsed_time,
+                "average_time_per_item_ms": elapsed_time / len(texts) if texts else 0
+            }
+            
+        except Exception as e:
+            return {
+                "success": False,
+                "error": str(e),
+                "results": None
+            }
+    
+    def get_statistics(self):
+        """
+        获取分类器统计信息
+        
+        返回:
+            dict: 分类器统计信息
+        """
+        return {
+            "classifier_type": "Rule-based English Sentence Classifier",
+            "version": "1.0.0",
+            "supported_categories": ["疑问句", "感叹句", "祈使句", "陈述句", "其他"],
+            "features": [
+                "单句分类",
+                "段落分类",
+                "批量处理",
+                "异常检测",
+                "中英文标签"
+            ],
+            "question_words_count": len(self.classifier.question_words) + len(self.classifier.wh_question_words),
+            "emotion_words_count": len(self.classifier.strong_emotion_words)
+        }
+
+# 创建默认API实例
+_default_api = None
+
+def get_classifier_api():
+    """获取分类器API实例（单例模式）"""
+    global _default_api
+    if _default_api is None:
+        _default_api = ClassificationAPI()
+    return _default_api
+
+def classify_text(text):
+    """
+    快速分类文本（简化API）
+    
+    参数:
+        text (str): 输入的英文文本
+    
+    返回:
+        str or list: 单个句子的分类结果或段落分类的结果列表
+    """
+    api = get_classifier_api()
+    result = api.classify_text(text)
+    
+    if result["success"]:
+        if result["input_type"] == "single_sentence":
+            return result["result"]
+        else:
+            # 对于段落，返回简化的结果列表
+            return [(item["sentence"], item["classification"]) for item in result["results"]]
+    else:
+        raise ValueError(result["error"])
 
 # ========== 主函数 ==========
 def main():
