@@ -1,0 +1,7765 @@
+{
+  "single_sentences": [
+    {
+      "text": "Help the door carefully!",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "It believes every day never.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Call the dishes before leaving.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Has it want the solution?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "The student hated the project often.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "The student believe the project usually.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What a fantastic movie!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Was you need the time?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Read the light carefully.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "He wanted books never.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Call the dishes now.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Why you the place?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "How did your brother study?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Write your homework now.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "How fantastic!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "How brilliant!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "It go the solution sometimes.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Was it like about this?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "The teacher listen every day always.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Write the package now.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Would she study the reason?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What a wonderful surprise.",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Stop your room at once.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "When has need to the party?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "The government had movies usually.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "How brilliant she is.",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Bring the dishes!",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Had she go ?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What an great idea!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Study the dishes now.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Should the company go to the party?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What a fantastic movie!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Was it like to the party?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Would the teacher understand to the party?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "The teacher come coffee usually.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Help the letter at once.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Ask the door.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Bring your room right now.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "The teacher read at night definitely.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Had the teacher need ?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "The weather study music usually.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What stupid decision!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "My friend have the plan usually.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "I spoke in the morning sometimes.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Open the report immediately.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What beautiful day.",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "I can't believe!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "I needed the plan usually although He know at night.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Read the dishes now.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "We know at school always.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "May the teacher remember to the party?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Bring your mind at once.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "They needed the plan certainly when He come at night.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Would he have ?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Fantastic.",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "She wants the solution probably.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "The teacher know the plan never.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Oh my God that was amazing!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "The government studied with friends sometimes.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What a beautiful day!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Speak the letter right now.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "You came in the morning probably.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "We had in the morning definitely.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Why was she need the movie?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What a fantastic movie!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Study the package quickly.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Show the window quickly!",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Why have he like the time?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Have they study the problem?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Clean the letter immediately!",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Help your homework please.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Study the computer quickly.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Read the document right now!",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Write the TV at once.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Can she have the reason?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "How rude you are!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What great idea!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Read the floor right now.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "The government study at work certainly.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Our company studied in the morning always.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Was your brother understand for dinner?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "How stupid!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Did they remember the problem?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Help your mind before leaving.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Clean the document immediately.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Whom are the company work the solution?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Ask the window before leaving.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Will the teacher need ?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Open the light now.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Incredible you are amazing.",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "How wonderful!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "How rude she is!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Open to me.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Our company did sports never.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "The cat went tea always.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What did think to the party?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Our company came every day sometimes.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Will they do the place?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What a great idea!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Our company wanted tea definitely.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Ask your mind please.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What horrible accident!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What an horrible accident!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Must she work ?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "How clever!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "How terrible he is!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "He likes with friends.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Was your friend study to the party?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Did she need ?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What terrible mistake!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Wow!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "How she?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Had it need the reason?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "The government loved in the morning certainly.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Bring the window at once.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Wow!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "The weather study movies probably.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What horrible accident!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Tell your mind before leaving.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "It love in the morning rarely.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Wait the computer at once.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "I knew movies usually.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What a fantastic movie!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Who are we do?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What beautiful day!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Should it do the problem?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What an amazing performance.",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "The weather spoke the plan never.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "When are he come about this?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What the teacher?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Open the letter immediately.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Where you?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "How amazing you are!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "May the government go ?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "They go coffee sometimes.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "When is your brother remember the place?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "They come at work probably.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Would your friend think the way?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "I believe the project sometimes.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Our company hated at school sometimes.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Wash your mind quietly.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Will the teacher want ?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What a stupid decision!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Can she work the movie?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Show the TV before leaving.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Tell your homework quietly.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "The student listened the project probably.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "My friend spoke sports.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Work the door at once.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Were your friend study .",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Show the package right now.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "The cat do the solution always.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "How he?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Give the package right now.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "The weather go the answer definitely.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What a brilliant solution.",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "How amazing you are!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "He gos with friends never while I speak the solution.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Unbelievable!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Do she know ?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "They write sports definitely.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "The student read movies certainly.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Must she want the problem?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Stop your hands!",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "How rude it is!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Have the company believe the way?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Do the company need to the party?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Wow that was fantastic!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Awesome!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Did the government believe the problem?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What she the movie?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "You want the solution definitely.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What fantastic movie!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What has the company know?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "We study sports definitely.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Had your brother think ?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "You studied food often.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Were we go the answer?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Go your mind.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What an stupid decision!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What a terrible mistake!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Leave the package quietly.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Tell the phone immediately.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "We have tea certainly.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "We want the project often.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Do the government believe ?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What a wonderful surprise!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "The student think at home always.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "When you the solution?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "How kind.",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "The cat speak every day certainly.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What does they know?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What a terrible mistake!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "I can't believe!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What amazing performance!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Has your brother go the solution?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "The dog want sports certainly.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What a great idea!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "The government need the idea while The government study coffee.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "It want music usually.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Does the government want the reason?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Fantastic this is incredible!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "I can't believe you are unbelievable!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What beautiful day!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "It speaks at work always.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What brilliant solution!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "He went at work certainly.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "When is we understand the problem?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Unbelievable!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "He studied every day never.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "We listen at night sometimes.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "How stupid they are!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Shall it know the reason?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Does your brother go the place?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Awesome!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What has the government come?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Whom has it need?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Will they think the movie?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Go the dishes right now.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "How beautiful he is!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What an stupid decision!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What fantastic movie!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "The student write at school.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "You listen at work definitely.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Which does the company come with that?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Stay to me quickly!",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Can the company understand the way?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Take your room now.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "When were work?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Has your brother need the answer?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Show the car immediately!",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Wait the door quietly.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "You like the idea usually.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "The government like in the morning usually when It write food.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Stop the car immediately.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "How terrible it is!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What wonderful surprise!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "How clever!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "I hate books certainly.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "The cat knew the project often.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Had the teacher have ?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Listen the letter before leaving.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Leave to me quietly.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "The government think at home usually.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Whom does need?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Fantastic this is amazing!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Take the floor quietly.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Whom has your friend need to the party?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Do they study the reason?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Who does want with that?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Read your hands quickly.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Stop the letter before leaving.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "He listened food certainly.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "When she the place?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Take the window quickly.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Speak the dishes please.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "How fantastic!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "How beautiful it is!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Ask the floor before leaving.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Our company study in the morning certainly.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Awesome you are unbelievable!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Listen the light right now!",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Who with that?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "I want the idea often.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Stop the phone please.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What an stupid decision!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Show the phone now.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Come the floor quietly.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Fantastic it is incredible!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What a stupid decision!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Wash your homework right now.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "How rude he is!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Go the door.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Show the TV carefully.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "I can't believe you are amazing.",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Should he study the reason?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What wonderful surprise!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "The cat listened the solution always.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "The dog studied movies always.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What a terrible mistake!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Which is the government do?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Where have they have about this?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Leave the door right now!",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "We think at night always.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Study your homework.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Go the dishes now.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "The dog love movies sometimes.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Give the book quietly.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Read the light before leaving.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "They wanted the plan.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "How clever they are!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Help to me immediately!",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "How beautiful he is!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "They listen coffee sometimes.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Help the package at once.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Are the teacher go about this?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Speak the package before leaving.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Leave the book now.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "My friend want with friends certainly although Our company work at night.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What an horrible accident!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Should you go the answer?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What fantastic movie!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "The cat listened with friends sometimes.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Call your hands now.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Open the phone quickly.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "It work sports sometimes.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "The weather read the project definitely.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "My friend know coffee.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "My friend listen at night sometimes.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "He hates at night certainly.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Give the dishes right now.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Did your friend have with that?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Stop the dishes.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Call the package before leaving.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What a horrible accident.",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "How wonderful!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Tell the letter right now!",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Which has we know the place?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "How stupid!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "When is they need?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "How stupid!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Wash the car please.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Write your room right now.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "The cat go at work never.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "The cat come the plan definitely.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Awesome!",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Do we come the movie?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Clean the report carefully!",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "It comes at night always.",
+      "type": "single",
+      "expected_labels": [
+        "陈述句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Leave the computer carefully.",
+      "type": "single",
+      "expected_labels": [
+        "祈使句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "How stupid you are.",
+      "type": "single",
+      "expected_labels": [
+        "感叹句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "What have the company come?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    },
+    {
+      "text": "Where did they think?",
+      "type": "single",
+      "expected_labels": [
+        "疑问句"
+      ],
+      "sentence_count": 1
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "What a fantastic movie! What horrible accident! The teacher hate in the morning never.",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "感叹句",
+        "陈述句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Bring the dishes right now. Were your friend need to the party?",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "疑问句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "My friend do the project usually. Stay the dishes quickly! What great idea! Does they need ? How fantastic he is!",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "祈使句",
+        "感叹句",
+        "疑问句",
+        "感叹句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "Help your room before leaving! Was we want ? Wash the dishes carefully.",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "疑问句",
+        "祈使句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "He hated tea certainly. How rude!",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "感叹句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "My friend love coffee always. Why it the place? Close the floor quietly. Help the letter quickly!",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "疑问句",
+        "祈使句",
+        "祈使句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Whom is they remember. Shall the company remember the solution? The dog understand the idea always. Close the phone before leaving! What an terrible mistake!",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "疑问句",
+        "陈述句",
+        "祈使句",
+        "感叹句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "Wow! How does your friend think the place? Our company need in the morning certainly.",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "疑问句",
+        "陈述句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Have she remember to the party? The student like at home sometimes. What a horrible accident!",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "陈述句",
+        "感叹句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Shall they know the reason? What were you understand?",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "疑问句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "The weather studied coffee certainly. He comes food never. The student speak in the morning usually.",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "陈述句",
+        "陈述句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "You go food if The weather speak every day. What stupid decision! Whom have remember with that? When did your friend believe the time?",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "感叹句",
+        "疑问句",
+        "疑问句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "How brilliant! How stupid! What brilliant solution!",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "感叹句",
+        "感叹句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "What a beautiful day! It gos the answer always. Read the TV please. Did she believe ?",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "陈述句",
+        "祈使句",
+        "疑问句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "The student read at night. Stop the computer quickly! Help your room before leaving! The weather listen the plan often. How wonderful!",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "祈使句",
+        "祈使句",
+        "陈述句",
+        "感叹句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "Go the letter quickly. Stay the letter quietly!",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "祈使句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Go the TV right now. How does your friend think the place?",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "疑问句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "What an wonderful surprise! How wonderful! Will the government want for dinner?",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "感叹句",
+        "疑问句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "The cat worked music rarely. My friend believe the plan definitely.",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "陈述句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "What a brilliant solution! Will the government want for dinner? Does the government do about this?",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "疑问句",
+        "疑问句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "The student speak in the morning usually. Incredible! How amazing it is!",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "感叹句",
+        "感叹句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "How brilliant! Whom have your brother have? Could we believe the time? May it come the solution? The teacher did in the morning probably.",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "疑问句",
+        "疑问句",
+        "疑问句",
+        "陈述句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "The dog work coffee certainly. Come the computer quietly.",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "祈使句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "The weather spoke the answer always. How rude!",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "感叹句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Take the light at once. Our company did the idea. The student like at work probably. We understand books. Wash your homework before leaving.",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "陈述句",
+        "陈述句",
+        "陈述句",
+        "祈使句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "Bring the light immediately. Study your homework at once. The weather had at home always.",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "祈使句",
+        "陈述句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Why were the government have with that? Has your friend come the answer? The cat love sports definitely.",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "疑问句",
+        "陈述句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Listen the report! What a fantastic movie! The dog listened movies usually. Could we understand the place.",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "感叹句",
+        "陈述句",
+        "疑问句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "What they the reason? Is the teacher like ? The dog hate the solution often. How rude!",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "疑问句",
+        "陈述句",
+        "感叹句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "What brilliant solution! Whom you the answer? The weather study with friends. The teacher believe food usually.",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "疑问句",
+        "陈述句",
+        "陈述句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "The cat come in the morning rarely. Stay the computer quietly! Help to me carefully! Is she like with that?",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "祈使句",
+        "祈使句",
+        "疑问句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "I believe the answer never. Work the book quickly! He wants at home sometimes. What are they study?",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "祈使句",
+        "陈述句",
+        "疑问句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "How clever she is! How wonderful!",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "感叹句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "The weather speak at school if They study sports. It works food always. What a amazing performance! The student read food rarely.",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "陈述句",
+        "感叹句",
+        "陈述句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Incredible! What a brilliant solution. Were your friend need to the party? We understand books. I can't believe that was amazing!",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "感叹句",
+        "疑问句",
+        "陈述句",
+        "感叹句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "Are it know the problem? My friend write the plan often. Show the dishes carefully! Should your brother come for dinner? Wash the letter right now.",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "陈述句",
+        "祈使句",
+        "疑问句",
+        "祈使句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "The student read at night. Open the car now. How clever she is! Whom have your brother have? Incredible this is unbelievable!",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "祈使句",
+        "感叹句",
+        "疑问句",
+        "感叹句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "Where he? How was it understand? Are it want the solution? Work the dishes immediately. Had it want ?",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "疑问句",
+        "疑问句",
+        "祈使句",
+        "疑问句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "Whom has he like? How kind it is! May your friend have the reason? You listen at work sometimes.",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "感叹句",
+        "疑问句",
+        "陈述句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "We hate the solution certainly. Bring to me at once. Take the package at once! May they remember ? Give the window immediately.",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "祈使句",
+        "祈使句",
+        "疑问句",
+        "祈使句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "Ask the report. Take the package at once!",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "祈使句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Shall the government have . He dos the answer usually although The cat hate in the morning.",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "陈述句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "The dog hate the solution often. He wants at home sometimes. Could we understand the place. Whom you the answer?",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "陈述句",
+        "疑问句",
+        "疑问句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "What a terrible mistake. Fantastic!",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "感叹句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Bring the window now. How wonderful!",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "感叹句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "The dog knew at night sometimes. How amazing they are!",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "感叹句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Will your friend want ? Our company hated the project definitely.",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "陈述句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Go the document right now! Work the dishes immediately. Open the document please. What a brilliant solution! What has she do the solution?",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "祈使句",
+        "祈使句",
+        "感叹句",
+        "疑问句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "Work the dishes immediately. We know tea definitely.",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "陈述句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "The government spoke every day rarely while They think the plan. Ask your room at once. Open your homework now. What a terrible mistake.",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "祈使句",
+        "祈使句",
+        "感叹句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "My friend study tea definitely. The student like at home sometimes. You need the plan never. Ask your room at once. How fantastic he is!",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "陈述句",
+        "陈述句",
+        "祈使句",
+        "感叹句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "The student read food rarely. How amazing she is! You go food if The weather speak every day.",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "感叹句",
+        "陈述句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Wow that was amazing! Shall they know the reason? Wash your homework before leaving. Call the dishes please. The cat worked music rarely.",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "疑问句",
+        "祈使句",
+        "祈使句",
+        "陈述句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "You think music always. Take the dishes please. Stop the computer quickly!",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "祈使句",
+        "祈使句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "I believe the project sometimes when We speak the idea. The weather speak sports definitely.",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "陈述句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "What stupid decision! Open the car now. You need the plan never. How terrible she is. I go music probably.",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "祈使句",
+        "陈述句",
+        "感叹句",
+        "陈述句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "What an beautiful day! What an horrible accident! Go the computer immediately.",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "感叹句",
+        "祈使句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "What a terrible mistake! Take the phone carefully!",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "祈使句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "They worked with friends. The weather speak at school if They study sports. Our company like books often. Ask the report. He wants at home sometimes.",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "陈述句",
+        "陈述句",
+        "祈使句",
+        "陈述句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "Could we believe the time? Is the company come the solution? My friend write the plan often.",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "疑问句",
+        "陈述句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "What a brilliant solution! Leave the light immediately! Close the computer right now. The weather listen the plan often. Clean the dishes immediately.",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "祈使句",
+        "祈使句",
+        "陈述句",
+        "祈使句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "What a brilliant solution. Close the document at once. How terrible she is! Incredible!",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "祈使句",
+        "感叹句",
+        "感叹句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Do they need about this? I had books rarely.",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "陈述句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Did she believe ? What a brilliant solution! Bring the report now. I need the plan never.",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "感叹句",
+        "祈使句",
+        "陈述句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Were we believe to the party? The government like coffee rarely. The teacher go at night.",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "陈述句",
+        "陈述句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "What is the government study the answer? He comes food never. How wonderful! Our company like books often.",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "陈述句",
+        "感叹句",
+        "陈述句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Why were it think? Does he need the place? The teacher know at work rarely.",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "疑问句",
+        "陈述句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "What fantastic movie! Could they remember ? Stop the window right now. May the government have the movie? Go the computer immediately.",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "疑问句",
+        "祈使句",
+        "疑问句",
+        "祈使句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "Whom have remember with that? Have she like the reason?",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "疑问句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "What are they study? Oh my God this is amazing! Take the book right now. Bring the light immediately. Our company think tea definitely.",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "感叹句",
+        "祈使句",
+        "祈使句",
+        "陈述句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "Give the book. Work the dishes immediately. How beautiful! Fantastic!",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "祈使句",
+        "感叹句",
+        "感叹句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Awesome! How brilliant! Whom you the answer?",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "感叹句",
+        "疑问句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "When has she want? Oh my God this is amazing! Whom has he like?",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "感叹句",
+        "疑问句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Read the computer quickly. The weather had at home always.",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "陈述句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Is the teacher like ? Bring to me at once.",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "祈使句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "How terrible! The teacher know at work rarely. The cat worked music rarely. Go the computer immediately. Wow that was fantastic!",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "陈述句",
+        "陈述句",
+        "祈使句",
+        "感叹句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "What a brilliant solution! Have you understand the reason? You read sports certainly. We understand books. What an wonderful surprise!",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "疑问句",
+        "陈述句",
+        "陈述句",
+        "感叹句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "They love every day. Wow that was fantastic! What wonderful surprise. Do you study the answer? What they the reason?",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "感叹句",
+        "感叹句",
+        "疑问句",
+        "疑问句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "Wow! He write coffee probably. What stupid decision!",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "陈述句",
+        "感叹句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Ask the door immediately. Incredible! Did your friend believe for dinner?",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "感叹句",
+        "疑问句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Wow this is fantastic! Has your friend like the reason? Read the window please.",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "疑问句",
+        "祈使句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "May they remember ? The cat worked music rarely.",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "陈述句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Give the book. How have your friend study the problem? Had she work ? Take the computer before leaving.",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "疑问句",
+        "疑问句",
+        "祈使句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "They love every day. Take the phone now. Terrible this is fantastic! Come the floor right now! Take the package at once!",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "祈使句",
+        "感叹句",
+        "祈使句",
+        "祈使句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "Show the car right now. Has your friend like the reason? Show your hands at once. How kind it is! Stop the computer quickly!",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "疑问句",
+        "祈使句",
+        "感叹句",
+        "祈使句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "Will your friend want ? You think music always.",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "陈述句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "The student like at home sometimes. The weather studied coffee certainly. What is the government study the answer? How wonderful! Do the teacher have the answer?",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "陈述句",
+        "疑问句",
+        "感叹句",
+        "疑问句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "May the government have the movie? The teacher hate in the morning never. What brilliant solution! The teacher know at work rarely. Might it need for dinner?",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "陈述句",
+        "感叹句",
+        "陈述句",
+        "疑问句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "Do the government have ? Listen your room.",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "祈使句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "I go music probably. It gos the answer always. Has your friend like the reason?",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "陈述句",
+        "疑问句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Did your friend believe for dinner? What a brilliant solution. Was your friend have ? You knew food often.",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "感叹句",
+        "疑问句",
+        "陈述句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "I write every day usually. The dog read sports never.",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "陈述句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Ask the report. The student go movies often.",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "陈述句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Go the TV right now. Open your homework quickly. Should your brother know ?",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "祈使句",
+        "疑问句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "When did your friend believe the time? Stop the computer quickly! Come the dishes quietly. The teacher want the answer often.",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "祈使句",
+        "祈使句",
+        "陈述句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Was we want ? Could we understand the place.",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "疑问句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "How beautiful you are! Why were it think?",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "疑问句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "My friend write the plan often. How beautiful! Leave your homework now.",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "感叹句",
+        "祈使句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Our company need in the morning certainly. He writes tea never. Oh my God you are amazing! How rude they are! The weather listen the plan often.",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "陈述句",
+        "感叹句",
+        "感叹句",
+        "陈述句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "How clever she is! The cat come in the morning rarely.",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "陈述句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Why are we work? We hate the solution certainly.",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "陈述句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Wow that was fantastic! My friend love coffee always. Clean the dishes immediately. The government write the project definitely. What horrible accident!",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "陈述句",
+        "祈使句",
+        "陈述句",
+        "感叹句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "How was the company know the answer? Is she like with that?",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "疑问句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "What an horrible accident! Take the book right now. What stupid decision! Does the government do about this?",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "祈使句",
+        "感叹句",
+        "疑问句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Will he work about this? Do the government have ? Go the package at once.",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "疑问句",
+        "祈使句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "What an wonderful surprise! Were we believe to the party? Shall the government have . The cat come in the morning rarely. Is the teacher like ?",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "疑问句",
+        "疑问句",
+        "陈述句",
+        "疑问句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "Shall they know the reason? Work the book quickly!",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "祈使句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Tell the dishes at once. Give the window immediately. We want at school rarely. How beautiful you are!",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "祈使句",
+        "陈述句",
+        "感叹句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "What wonderful surprise! Could we believe the time? Come the computer quietly. How brilliant!",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "疑问句",
+        "祈使句",
+        "感叹句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Has your friend like the reason? Whom are it understand? Open the light quietly! How wonderful!",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "疑问句",
+        "祈使句",
+        "感叹句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Has they remember the solution? Is you remember the reason? How brilliant.",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "疑问句",
+        "感叹句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Tell the dishes at once. Why do remember? Clean the dishes immediately. Does they need ? My friend write the plan often.",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "疑问句",
+        "祈使句",
+        "疑问句",
+        "陈述句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "We read at work never. Close the floor quietly. You came at work always. Shall the company remember the solution? Come the book right now.",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "祈使句",
+        "陈述句",
+        "疑问句",
+        "祈使句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "Do the teacher have the answer? The dog knew at night sometimes. Open the car now. The weather love sports sometimes.",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "陈述句",
+        "祈使句",
+        "陈述句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "The dog understand the idea always. May the government go the time? Incredible!",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "疑问句",
+        "感叹句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "He comes food never. How beautiful you are! I believe the answer never. The cat come in the morning rarely.",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "感叹句",
+        "陈述句",
+        "陈述句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "How brilliant! I believe the answer never.",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "陈述句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "The teacher know at work rarely. He dos the answer usually although The cat hate in the morning. Are it know the problem? What a horrible accident! Close your mind at once.",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "陈述句",
+        "疑问句",
+        "感叹句",
+        "祈使句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "Has the government do ? The teacher hate in the morning never. My friend believe the plan definitely. How brilliant!",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "陈述句",
+        "陈述句",
+        "感叹句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Listen the report! Was your friend study ? Whom are it understand? Tell the door now! Ask the door immediately.",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "疑问句",
+        "疑问句",
+        "祈使句",
+        "祈使句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "Has we know the time? Take your room quickly! What were you understand? Clean the dishes immediately.",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "祈使句",
+        "疑问句",
+        "祈使句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Oh my God you are amazing! Is the teacher like ?",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "疑问句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Terrible! What a terrible mistake.",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "感叹句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Incredible it is incredible! The weather study with friends. What brilliant solution!",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "陈述句",
+        "感叹句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "I can't believe that was amazing! Why it the place? It works food always.",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "疑问句",
+        "陈述句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "What an stupid decision! Clean the dishes immediately. Ask the floor. Does the government do about this?",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "祈使句",
+        "祈使句",
+        "疑问句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Should you think the solution? The dog read sports never. You read at school probably.",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "陈述句",
+        "陈述句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Go the TV right now. Take the package at once!",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "祈使句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Should your brother know ? The teacher work at school always. The weather write movies certainly.",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "陈述句",
+        "陈述句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "The dog understand the idea always. Show the dishes carefully! Wash the letter right now. Close the floor quietly.",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "祈使句",
+        "祈使句",
+        "祈使句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Could we understand the place. What terrible mistake! Call the dishes please.",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "感叹句",
+        "祈使句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "You read sports certainly. Wow that was amazing! The dog work coffee certainly. Go the letter quickly. How wonderful!",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "感叹句",
+        "陈述句",
+        "祈使句",
+        "感叹句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "Study your homework at once. When has they go the movie? Read the window please. The weather listen every day sometimes when It work at school. Whom has he like?",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "疑问句",
+        "祈使句",
+        "陈述句",
+        "疑问句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "Call the dishes please. Did the teacher go the time? The weather write movies certainly.",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "疑问句",
+        "陈述句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Will your friend want ? How stupid! Incredible it is incredible! Have you understand the reason? How brilliant!",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "感叹句",
+        "感叹句",
+        "疑问句",
+        "感叹句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "Bring the door before leaving. How wonderful! The dog work coffee certainly. Have she like the reason?",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "感叹句",
+        "陈述句",
+        "疑问句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "What an amazing performance! Show the car right now. How kind it is! Wash your homework before leaving.",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "祈使句",
+        "感叹句",
+        "祈使句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Stop the computer quietly. Is you remember the reason? Oh my God this is amazing! My friend believe the plan definitely.",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "疑问句",
+        "感叹句",
+        "陈述句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Our company read sports usually. The government spoke every day rarely while They think the plan. Leave the car now.",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "陈述句",
+        "祈使句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "I need the plan never. I can't believe that was amazing! It works food always. Why were the government have with that?",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "感叹句",
+        "陈述句",
+        "疑问句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "How rude they are! What fantastic movie! I write every day usually. How kind they are!",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "感叹句",
+        "陈述句",
+        "感叹句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "The cat love sports definitely. Wow that was fantastic! What an horrible accident! She study music usually.",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "感叹句",
+        "感叹句",
+        "陈述句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Close your mind at once. Do the teacher have the answer? My friend study tea definitely. How brilliant he is! Show your hands at once.",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "疑问句",
+        "陈述句",
+        "感叹句",
+        "祈使句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "How rude she is! Stop the phone please. Fantastic!",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "祈使句",
+        "感叹句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Has the government do ? What a terrible mistake! What an stupid decision! How beautiful you are!",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "感叹句",
+        "感叹句",
+        "感叹句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Read the window please. How terrible they are! Ask the door immediately. She hated at school certainly.",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "感叹句",
+        "祈使句",
+        "陈述句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Ask the door immediately. Bring the document carefully. What a great idea! Open the document please.",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "祈使句",
+        "感叹句",
+        "祈使句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "What an wonderful surprise! I write every day usually. Bring the report now. What did the government have? The weather write movies certainly.",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "陈述句",
+        "祈使句",
+        "疑问句",
+        "陈述句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "Show the phone before leaving. What has she do the solution?",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "疑问句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "The teacher believe food usually. How stupid! How stupid!",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "感叹句",
+        "感叹句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "The student like at work probably. Bring the document carefully. The student go movies often. Take the dishes please.",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "祈使句",
+        "陈述句",
+        "祈使句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "How fantastic! What stupid decision! Awesome! You knew food often. What an horrible accident!",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "感叹句",
+        "感叹句",
+        "陈述句",
+        "感叹句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "Why were the government have with that? May they remember ? How fantastic he is!",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "疑问句",
+        "感叹句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "The cat love sports definitely. Oh my God you are amazing! Go the package at once. Was they have ? Our company need the plan probably.",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "感叹句",
+        "祈使句",
+        "疑问句",
+        "陈述句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "He write coffee probably. Bring to me at once. You listen at work sometimes. When has they go the movie? Read the floor immediately.",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "祈使句",
+        "陈述句",
+        "疑问句",
+        "祈使句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "Call the package quietly. How terrible she is. Tell your hands please.",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "感叹句",
+        "祈使句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "You read at school probably. Is the teacher like ?",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "疑问句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "My friend write the plan often. Tell the door now! The teacher want coffee definitely although I listen tea. You go food if The weather speak every day. Where is the company need the reason?",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "祈使句",
+        "陈述句",
+        "陈述句",
+        "疑问句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "What stupid decision! Incredible!",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "感叹句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Listen the report! Might it need for dinner? Bring the light immediately. Listen your room. Study your homework at once.",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "疑问句",
+        "祈使句",
+        "祈使句",
+        "祈使句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "The student speak in the morning usually. How rude. You go food if The weather speak every day.",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "感叹句",
+        "陈述句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Wash the document quickly. Incredible! The student like at work probably.",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "感叹句",
+        "陈述句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "What do the government understand to the party? You knew food often. You go food if The weather speak every day.",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "陈述句",
+        "陈述句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Work the dishes immediately. My friend write the plan often. Does the government do about this?",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "陈述句",
+        "疑问句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "The cat come in the morning rarely. Speak the report quickly. We understand books. The dog loved the answer rarely if The student listen at work.",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "祈使句",
+        "陈述句",
+        "陈述句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "He write coffee probably. Come the document. Take the book right now. Wash the window please.",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "祈使句",
+        "祈使句",
+        "祈使句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Go the letter quickly. Shall the government have . Help your room before leaving! Is the company come the solution? Has they remember the solution?",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "疑问句",
+        "祈使句",
+        "疑问句",
+        "疑问句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "Will the government want for dinner? The cat love sports definitely. Ask your room at once.",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "陈述句",
+        "祈使句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "How rude. Whom are it understand?",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "疑问句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Wow that was fantastic! The teacher did in the morning probably. Our company did the idea.",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "陈述句",
+        "陈述句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "How stupid! Where he? Who it the reason? It listens sports usually.",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "疑问句",
+        "疑问句",
+        "陈述句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "The weather listen the plan often. What an terrible mistake! Does they need ? How clever she is!",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "感叹句",
+        "疑问句",
+        "感叹句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "What a terrible mistake. Show the dishes right now.",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "祈使句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "We read at work never. How fantastic he is! The teacher want the answer often. Why did study to the party?",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "感叹句",
+        "陈述句",
+        "疑问句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "The cat come in the morning rarely. Call the package quietly. I believe the answer never. Do the teacher have the answer?",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "祈使句",
+        "陈述句",
+        "疑问句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "He dos the answer usually although The cat hate in the morning. What a brilliant solution! My friend believe the plan definitely.",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "感叹句",
+        "陈述句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Give the TV quickly. Has the government do ? Ask the light please.",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "疑问句",
+        "祈使句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Whom is they remember. Take your mind immediately! When did they work?",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "祈使句",
+        "疑问句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Incredible! Bring your homework immediately. How terrible! Did the teacher go the time?",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "祈使句",
+        "感叹句",
+        "疑问句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "The dog listened movies usually. Wash the window please.",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "祈使句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Should your brother come for dinner? Work the book quickly! Oh my God this is amazing!",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "祈使句",
+        "感叹句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "How terrible! What an amazing performance! Shall the government have . My friend study tea definitely. Ask the floor.",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "感叹句",
+        "疑问句",
+        "陈述句",
+        "祈使句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "The government like coffee rarely. Bring to me quickly. Could they remember ?",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "祈使句",
+        "疑问句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "The teacher believe food usually. Stay your homework quickly. The teacher did in the morning probably. What a amazing performance! The weather speak at school if They study sports.",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "祈使句",
+        "陈述句",
+        "感叹句",
+        "陈述句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "What an wonderful surprise! Take the dishes please. What terrible mistake! What stupid decision!",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "祈使句",
+        "感叹句",
+        "感叹句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Show the dishes right now. Our company listen the plan probably. We understand books. You need the plan never. Help your room before leaving!",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "陈述句",
+        "陈述句",
+        "陈述句",
+        "祈使句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "Why do remember? Close the computer right now. Shall they know the reason? Had she work ? Open the light quietly!",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "祈使句",
+        "疑问句",
+        "疑问句",
+        "祈使句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "He writes tea never. The student read food rarely.",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "陈述句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Study your homework at once. He dos the answer usually although The cat hate in the morning. Is the teacher like ? What a beautiful day!",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "陈述句",
+        "疑问句",
+        "感叹句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Fantastic! He writes tea never. The teacher read every day rarely.",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "陈述句",
+        "陈述句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Close your mind at once. Could the teacher remember ?",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "疑问句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "We understand books. What a wonderful surprise! Come the computer quietly.",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "感叹句",
+        "祈使句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Bring to me quickly. My friend read food always. Incredible!",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "陈述句",
+        "感叹句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "How fantastic! How beautiful! Show your hands at once. What were you understand?",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "感叹句",
+        "祈使句",
+        "疑问句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Read the computer quickly. The teacher work at school always.",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "陈述句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "The dog knew at night sometimes. Go the computer immediately.",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "祈使句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Listen the report! What brilliant solution!",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "感叹句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Do the teacher have the answer? What stupid decision!",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "感叹句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "He writes tea never. How beautiful! Incredible! Has your friend like the reason? You go food if The weather speak every day.",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "感叹句",
+        "感叹句",
+        "疑问句",
+        "陈述句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "Could the teacher remember ? Stop your hands at once.",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "祈使句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Show the phone before leaving. Open the document please. What an horrible accident!",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "祈使句",
+        "感叹句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Have you understand the reason? Open the light quietly! Has your friend like the reason?",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "祈使句",
+        "疑问句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Is the teacher like ? Work the light carefully! Wow! Open your homework quickly.",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "祈使句",
+        "感叹句",
+        "祈使句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "What a brilliant solution! The student like at home sometimes. Our company did the idea. He likes the idea although The teacher write the answer.",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "陈述句",
+        "陈述句",
+        "陈述句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "How rude they are! Shall the company remember the solution?",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "疑问句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Are she remember ? We understand books. Bring the document carefully.",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "陈述句",
+        "祈使句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Do the government have ? What stupid decision!",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "感叹句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "What fantastic movie! Close the floor quietly. The teacher believe food usually.",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "祈使句",
+        "陈述句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Does he need the place? We want at school rarely. Go the TV right now.",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "陈述句",
+        "祈使句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "He comes food never. The teacher want the answer often.",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "陈述句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "The dog work coffee certainly. Has they remember the solution?",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "疑问句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Leave your homework now. What brilliant solution!",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "感叹句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "How wonderful! Help the car before leaving. How rude they are!",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "祈使句",
+        "感叹句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Is you remember the reason? Might it need for dinner?",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "疑问句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Will it study ? Take the package at once! How terrible!",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "祈使句",
+        "感叹句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Will your friend want ? How fantastic he is! Do they think the time?",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "感叹句",
+        "疑问句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Show the car right now. Leave the light immediately! Does they need ? Open the light quietly! Bring to me at once.",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "祈使句",
+        "疑问句",
+        "祈使句",
+        "祈使句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "Might it need for dinner? How was it understand? Ask the light please. The teacher believe food usually.",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "疑问句",
+        "祈使句",
+        "陈述句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Stop the computer quietly. How wonderful! She went music sometimes. Listen your room. Should your brother know ?",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "感叹句",
+        "陈述句",
+        "祈使句",
+        "疑问句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "Wow that was fantastic! Study your homework at once. What did the government have? Incredible! Come the book right now.",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "祈使句",
+        "疑问句",
+        "感叹句",
+        "祈使句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "Have he study with that? Give the TV quickly.",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "祈使句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "He reads in the morning definitely while My friend believe movies. What an wonderful surprise! Open the document please. Has your friend like the reason?",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "感叹句",
+        "祈使句",
+        "疑问句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Take the book immediately. Go the package at once.",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "祈使句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Take the book immediately. How wonderful! Why do remember? Give the book. Wash the dishes carefully.",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "感叹句",
+        "疑问句",
+        "祈使句",
+        "祈使句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "She hated at school certainly. How rude they are! Take the phone now. Come the document.",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "感叹句",
+        "祈使句",
+        "祈使句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "What stupid decision! He wants at home sometimes. He loves movies certainly if I do movies. Whom have the teacher understand?",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "陈述句",
+        "陈述句",
+        "疑问句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Have he study with that? You need the plan never.",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "陈述句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "How wonderful! Will your friend want ?",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "疑问句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Do they need about this? What were you understand? Our company read sports usually.",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "疑问句",
+        "陈述句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Show the dishes right now. The dog listened movies usually. Close your mind at once. Our company read sports usually.",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "陈述句",
+        "祈使句",
+        "陈述句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "What fantastic movie! They like food certainly. Where has the government have? How rude they are!",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "陈述句",
+        "疑问句",
+        "感叹句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "When has they go the movie? What stupid decision! What terrible mistake! Listen your room.",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "感叹句",
+        "感叹句",
+        "祈使句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "May they remember ? What fantastic movie! Go the package at once. What an wonderful surprise! Where he?",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "感叹句",
+        "祈使句",
+        "感叹句",
+        "疑问句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "May they remember ? What horrible accident!",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "感叹句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Our company read sports usually. How beautiful!",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "感叹句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Were your friend need to the party? My friend do the project usually. Awesome! Our company hated the project definitely.",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "陈述句",
+        "感叹句",
+        "陈述句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Work the light carefully! Our company listen the plan probably.",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "陈述句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "The weather speak at school if They study sports. Take the light at once. What a terrible mistake.",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "祈使句",
+        "感叹句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Are it know the problem? The teacher believe food usually. My friend believe the plan definitely. The dog listened movies usually. Should she believe the movie?",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "陈述句",
+        "陈述句",
+        "陈述句",
+        "疑问句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "Read the computer quickly. Ask your room at once.",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "祈使句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Could we believe the time? Where he? You listen at work sometimes. Wash the letter right now. My friend write the plan often.",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "疑问句",
+        "陈述句",
+        "祈使句",
+        "陈述句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "Go the TV quietly. Are the teacher work ? How rude they are! Close the phone before leaving! Stop the computer quickly!",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "疑问句",
+        "感叹句",
+        "祈使句",
+        "祈使句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "May the government go the time? Whom have your brother have? Terrible it is incredible! Open the car now.",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "疑问句",
+        "感叹句",
+        "祈使句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "How does your friend think the place? Go the package at once. How terrible she is!",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "祈使句",
+        "感叹句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "We hate the solution certainly. Give the book. Are she remember ? Where has the government have? We understand books.",
+      "type": "paragraph",
+      "expected_labels": [
+        "陈述句",
+        "祈使句",
+        "疑问句",
+        "疑问句",
+        "陈述句"
+      ],
+      "sentence_count": 5
+    },
+    {
+      "text": "Why do remember? Awesome! Stop the phone please. What fantastic movie!",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "感叹句",
+        "祈使句",
+        "感叹句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Do the teacher have the answer? Take the book immediately. Does the government do about this?",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "祈使句",
+        "疑问句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Whom have remember with that? How kind they are! Where has the government have? Why it the place?",
+      "type": "paragraph",
+      "expected_labels": [
+        "疑问句",
+        "感叹句",
+        "疑问句",
+        "疑问句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Oh my God this is amazing! Read the floor immediately.",
+      "type": "paragraph",
+      "expected_labels": [
+        "感叹句",
+        "祈使句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Ask your room at once. You think music always.",
+      "type": "paragraph",
+      "expected_labels": [
+        "祈使句",
+        "陈述句"
+      ],
+      "sentence_count": 2
+    }
+  ],
+  "dialogues": [
+    {
+      "text": "Student: Must he do with that? Employee: What amazing performance. Mary: What a wonderful surprise! Employee: Give the report quietly.",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "感叹句",
+        "感叹句",
+        "祈使句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Mary: Bring your mind quickly. John: Listen the window please. Tom: It reads the solution never. Student: How is they go?",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "祈使句",
+        "陈述句",
+        "疑问句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Mary: Wash the computer carefully. Alice: She believed coffee never.",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "陈述句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Student: Go the dishes now! Student: I can't believe that was amazing!",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "感叹句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Student: Would the government study with that? Tom: Have she have the place? Boss: Show your hands immediately.",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "疑问句",
+        "祈使句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Mary: What did the government think the time? Mary: Why are they have?",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "疑问句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Student: They hated with friends. John: How clever!",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "感叹句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Employee: Give the car. Boss: Wash to me at once! Tom: Listen the report now.",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "祈使句",
+        "祈使句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Teacher: They know the idea probably. Alice: When has they study?",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "疑问句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Mary: You speak with friends. John: Take the report immediately.",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "祈使句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Mary: How did go. Employee: The cat worked at night certainly while You do the plan.",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "陈述句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Employee: Had the teacher know about this? Mary: Show your hands immediately.",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "祈使句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Tom: How wonderful she is! Alice: What a stupid decision! Employee: Where were have the answer?",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "感叹句",
+        "疑问句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Boss: How wonderful she is! Boss: My friend want books rarely.",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "陈述句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Tom: Might the company like ? Boss: Leave the report quietly! Student: How have we like? Tom: We hated at school often.",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "祈使句",
+        "疑问句",
+        "陈述句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Student: The teacher worked every day certainly. Student: The student study the project.",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "陈述句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Alice: Write your mind at once. Alice: Study to me now!",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "祈使句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Mary: How clever! Mary: Write your hands before leaving!",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "祈使句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Alice: The weather want the solution often. Mary: Wash the car!",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "祈使句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Student: Which you the time? Alice: Does the company think to the party? Student: I hated books probably.",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "疑问句",
+        "陈述句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Student: Is he want ? Alice: How kind! Boss: What fantastic movie! Alice: Which has you come the answer?",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "感叹句",
+        "感叹句",
+        "疑问句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Boss: How terrible they are! Mary: When has they study? Employee: What an wonderful surprise!",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "疑问句",
+        "感叹句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Student: How fantastic it is! Boss: Should you do to the party. Employee: How amazing! Teacher: Write your mind at once.",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "疑问句",
+        "感叹句",
+        "祈使句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Tom: Stop to me immediately. Teacher: What terrible mistake!",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "感叹句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Tom: Which you the time? Mary: Take the report immediately.",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "祈使句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Tom: Why are they have? Alice: You hate in the morning never when She think music.",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "陈述句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Tom: Stop the document immediately! Teacher: How stupid she is!",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "感叹句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Tom: Tell the document now. Employee: Show the package at once.",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "祈使句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Alice: It understood at work always although The government do the solution. Teacher: How terrible she is! John: My friend have coffee. Tom: How terrible they are!",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "感叹句",
+        "陈述句",
+        "感叹句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Employee: Stop the book right now. Mary: Is they like the way? Tom: My friend want books rarely.",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "疑问句",
+        "陈述句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Tom: How wonderful she is! Boss: Who is the company like?",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "疑问句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Student: Stop to me immediately. Employee: Stop the car. Alice: Where were have the answer?",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "祈使句",
+        "疑问句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Mary: Was the government go ? Teacher: Leave the report quietly! John: Must he do with that?",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "祈使句",
+        "疑问句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Teacher: I can't believe that was amazing! Boss: Help to me before leaving. Employee: Our company hate the plan probably.",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "祈使句",
+        "陈述句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Alice: Will your friend study with that? John: What amazing performance! Teacher: Did the company have ?",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "感叹句",
+        "疑问句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Teacher: What is she work the reason? Tom: Stay the report. John: Incredible! Teacher: They work music usually.",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "祈使句",
+        "感叹句",
+        "陈述句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Mary: The dog spoke the answer rarely. Mary: Has the government like the way? Student: What a terrible mistake! Teacher: Speak the phone quickly.",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "疑问句",
+        "感叹句",
+        "祈使句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Employee: Show your mind right now! Mary: Wow that was unbelievable! Tom: What a stupid decision!",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "感叹句",
+        "感叹句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Student: Clean the light before leaving. John: Stay the window carefully. Boss: Were the teacher remember ?",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "祈使句",
+        "疑问句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Tom: She come with friends rarely. Tom: What terrible mistake! Alice: Must he do with that? Student: They hated the plan probably.",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "感叹句",
+        "疑问句",
+        "陈述句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Mary: The cat worked at night certainly while You do the plan. Tom: Where were have the answer? Student: The cat need in the morning certainly. Mary: Call the book right now!",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "疑问句",
+        "陈述句",
+        "祈使句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Teacher: What wonderful surprise! Tom: Give the window at once. Tom: I speak at work never.",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "祈使句",
+        "陈述句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Boss: Were the teacher remember ? Boss: What has she want about this?",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "疑问句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "John: How beautiful. Tom: Wait the report quickly. Boss: Listen the phone quickly.",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "祈使句",
+        "祈使句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Teacher: They work music usually. Student: The teacher go with friends often. Student: Must he do with that? Student: Fantastic!",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "陈述句",
+        "疑问句",
+        "感叹句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Boss: How is they go? Mary: Stop the phone now! Student: How stupid he is!",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "祈使句",
+        "感叹句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Student: What do they remember with that? Mary: How stupid they are!",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "感叹句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "John: The teacher come at night. Student: How brilliant! Tom: How stupid!",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "感叹句",
+        "感叹句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "John: The teacher worked every day certainly. Boss: Should you do to the party.",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "疑问句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Employee: Wash the phone now. Mary: May she remember ? Student: Come the floor now. John: They work books often.",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "疑问句",
+        "祈使句",
+        "陈述句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Boss: Why are they have? John: Does the company think to the party? John: Close your room at once! Student: What a fantastic movie!",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "疑问句",
+        "祈使句",
+        "感叹句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "John: Might she know the way? Tom: Open your hands carefully. Teacher: How brilliant! Teacher: Why the company?",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "祈使句",
+        "感叹句",
+        "疑问句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Boss: What an horrible accident! Alice: Come the book quickly.",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "祈使句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "John: They understood at work usually. Boss: What great idea. Tom: How kind he is!",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "感叹句",
+        "感叹句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Alice: The cat understood in the morning always. John: Unbelievable it is amazing.",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "感叹句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Employee: Come the report quietly! Tom: What an wonderful surprise!",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "感叹句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "John: Incredible! Mary: What an fantastic movie.",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "感叹句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Student: The cat understood in the morning always. Teacher: Read the floor quietly.",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "祈使句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Student: The teacher come at night. Alice: How kind!",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "感叹句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Boss: Come the dishes before leaving. Mary: Should they work the way?",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "疑问句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Boss: Fantastic this is unbelievable! John: Can it believe about this? Teacher: What a brilliant solution.",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "疑问句",
+        "感叹句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "John: Must your friend remember the solution? Alice: Stay the window carefully. Student: They work books often. Tom: The weather want the solution often.",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "祈使句",
+        "陈述句",
+        "陈述句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Tom: Which has you come the answer? Mary: My friend want books rarely. Student: I came at home usually.",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "陈述句",
+        "陈述句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Mary: Give the computer quietly. Boss: Is they like the way?",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "疑问句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Alice: Write the car right now. Alice: How terrible she is!",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "感叹句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "John: Listen the floor right now. Mary: What did the government think the time?",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "疑问句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Mary: May it like the reason? John: Close the phone. Employee: The cat had food usually.",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "祈使句",
+        "陈述句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Tom: Has you study ? Student: Stay the report. Boss: How beautiful.",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "祈使句",
+        "感叹句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Alice: Ask the document please. Mary: How terrible. Student: How does your brother have? Student: Were the teacher remember ?",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "感叹句",
+        "疑问句",
+        "疑问句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Teacher: What an terrible mistake! Tom: Take the report immediately. Boss: Wash to me at once! John: Go the letter quietly!",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "祈使句",
+        "祈使句",
+        "祈使句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Alice: Why do your brother study the place? Alice: I can't believe that was amazing! Alice: The teacher come at night.",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "感叹句",
+        "陈述句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Tom: Open the letter at once! John: Tell your homework please!",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "祈使句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "John: Help to me before leaving. Tom: Clean the light before leaving. Mary: Bring to me quickly.",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "祈使句",
+        "祈使句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Employee: Are you want ? Tom: Tell the phone immediately. Student: Listen the book quietly. Student: How clever you are!",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "祈使句",
+        "祈使句",
+        "感叹句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Student: Terrible it is fantastic! Mary: Show the light right now.",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "祈使句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Student: I study music always. John: What do they remember with that? Student: Open your hands carefully. Student: The teacher worked every day certainly.",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "疑问句",
+        "祈使句",
+        "陈述句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Mary: I had every day rarely. John: What terrible mistake!",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "感叹句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Mary: How brilliant! Mary: The government hated food definitely.",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "陈述句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Employee: Can we need the reason? Employee: What a wonderful surprise! John: Ask your hands quickly. Boss: What an wonderful surprise!",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "感叹句",
+        "祈使句",
+        "感叹句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Teacher: Oh my God! Boss: What a terrible mistake! Alice: Go the TV please. Teacher: Bring the dishes carefully!",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "感叹句",
+        "祈使句",
+        "祈使句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Employee: The government spoke music never. Tom: The cat wanted books never.",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "陈述句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Mary: Stop to me immediately. Student: Which is study for dinner? Student: Wash the computer carefully.",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "疑问句",
+        "祈使句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Tom: He read books rarely. Teacher: Leave the report quietly! Alice: The teacher believe sports always.",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "祈使句",
+        "陈述句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Student: Has the government like the way? Alice: The teacher go with friends often.",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "陈述句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Alice: Write your hands before leaving! John: Which you the time?",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "疑问句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Teacher: Is you remember the problem? Employee: Listen the window please. Boss: What stupid decision! Employee: Write your room please.",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "祈使句",
+        "感叹句",
+        "祈使句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Mary: I study the plan. Employee: What has the teacher study with that?",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "疑问句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Mary: You speak with friends. Tom: What an beautiful day!",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "感叹句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Teacher: Write your hands before leaving! Employee: Should you do to the party.",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "疑问句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Student: What amazing performance. Teacher: I study music always. Employee: The dog hate at work always.",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "陈述句",
+        "陈述句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Tom: My friend have coffee. Employee: What terrible mistake! John: Whom was the teacher work?",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "感叹句",
+        "疑问句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Student: Give the report quietly. Mary: He read books rarely. Employee: How kind he is! Teacher: Awesome it is fantastic!",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "陈述句",
+        "感叹句",
+        "感叹句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "John: Would she do the solution? Teacher: Is the company come the problem? Mary: Ask the package quietly. John: Who is the company like?",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "疑问句",
+        "祈使句",
+        "疑问句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Teacher: What an terrible mistake! Boss: Is he want ? Boss: When you about this? Employee: What beautiful day!",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "疑问句",
+        "疑问句",
+        "感叹句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Tom: The cat think at home probably. Boss: Shall the teacher do ? Boss: Listen the book quietly. Alice: Wow that was unbelievable!",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "疑问句",
+        "祈使句",
+        "感叹句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Boss: How wonderful she is! Employee: Can we need the reason? Student: Would she do the solution? Boss: How wonderful you are!",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "疑问句",
+        "疑问句",
+        "感叹句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Tom: Show your hands immediately. Alice: The dog thought in the morning definitely.",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "陈述句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Student: Our company spoke every day sometimes. Boss: The teacher had every day definitely when The dog read at work.",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "陈述句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "John: She believed coffee never. Tom: How the way?",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "疑问句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Alice: Oh my God! Mary: Whom your friend to the party?",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "疑问句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Tom: They speak at night probably. Alice: They hated with friends. Tom: What an terrible mistake! Mary: The teacher worked the plan never.",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "陈述句",
+        "感叹句",
+        "陈述句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "John: How brilliant! Tom: Clean the light before leaving. Tom: I studied every day probably.",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "祈使句",
+        "陈述句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Teacher: Might she know the way? Tom: Give to me! Boss: How kind!",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "祈使句",
+        "感叹句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Mary: What great idea. Teacher: Ask the package before leaving. Employee: Show your mind right now!",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "祈使句",
+        "祈使句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Teacher: The weather understand at school sometimes. Boss: He dos the solution always.",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "陈述句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Teacher: Why? Mary: I can't believe you are incredible! John: Must we have ? Tom: Have she have the place?",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "感叹句",
+        "疑问句",
+        "疑问句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Tom: What the way? Student: Our company spoke every day sometimes.",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "陈述句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Teacher: The teacher worked the answer never. Teacher: Were it go the time?",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "疑问句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Mary: Why were it know to the party? Mary: He dos the solution always.",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "陈述句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Alice: Our company needed at night certainly. Boss: Why were the government want? Mary: Our company spoke every day sometimes. Alice: The weather understand at school sometimes.",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "疑问句",
+        "陈述句",
+        "陈述句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Mary: Wow that was unbelievable! Teacher: How wonderful it is!",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "感叹句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Student: Might the company like ? Alice: They want coffee often. Mary: Who the company the time?",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "陈述句",
+        "疑问句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Tom: They hated the plan probably. John: What a wonderful surprise! Tom: Close your room at once!",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "感叹句",
+        "祈使句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Mary: Close the phone. Tom: Read the book at once.",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "祈使句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Teacher: The government think music usually since The teacher listen at school. Teacher: How does your brother have?",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "疑问句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Teacher: What a wonderful surprise! Student: Listen the phone quickly. Employee: Which you the time?",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "祈使句",
+        "疑问句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Alice: Show the light right now. Mary: What the way? Boss: Close your room at once! Alice: Whom your friend to the party?",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "疑问句",
+        "祈使句",
+        "疑问句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Tom: What great idea. Boss: Might she know the way? Employee: Tell your homework please!",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "疑问句",
+        "祈使句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Mary: How amazing! Employee: They speak at night probably.",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "陈述句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Student: Unbelievable! Mary: The teacher worked the plan never. Boss: Fantastic it is fantastic! Employee: You understand at school never.",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "陈述句",
+        "感叹句",
+        "陈述句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Teacher: Is you remember the problem? Tom: Listen the window please. Tom: She come with friends rarely. John: How stupid!",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "祈使句",
+        "陈述句",
+        "感叹句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "John: Would she do the solution? Tom: Stop the package right now. Boss: It reads books definitely. Employee: Wash your homework immediately!",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "祈使句",
+        "陈述句",
+        "祈使句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "John: Incredible! Student: It understood at work always although The government do the solution. Employee: The student like at work certainly since It like at school. Student: Whom your friend to the party?",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "陈述句",
+        "陈述句",
+        "疑问句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Mary: What an wonderful surprise! Student: Write your room please. Tom: What a fantastic movie! Student: How stupid she is!",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "祈使句",
+        "感叹句",
+        "感叹句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Student: The government spoke music never. Boss: Open your hands carefully. Mary: You went coffee often.",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "祈使句",
+        "陈述句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Alice: Come your hands now. Boss: The cat understood in the morning always. Alice: Wash the computer carefully. Employee: What amazing performance!",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "陈述句",
+        "祈使句",
+        "感叹句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "John: Close the letter quickly. Mary: How kind he is!",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "感叹句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "John: How clever! Boss: I can't believe you are incredible!",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "感叹句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Mary: The cat worked at night certainly while You do the plan. John: Should it come ? Employee: It reads the solution never. Teacher: The teacher worked the answer never.",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "疑问句",
+        "陈述句",
+        "陈述句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Mary: Whom was your brother remember the solution? Employee: Go the TV please. Tom: I come at home never.",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "祈使句",
+        "陈述句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Boss: When you about this? Alice: Which is study for dinner?",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "疑问句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Boss: Will your friend study with that? Mary: Why it? Tom: It reads the solution never. Teacher: Shall we understand the way?",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "疑问句",
+        "陈述句",
+        "疑问句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Tom: Wash the computer carefully. Teacher: What terrible mistake!",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "感叹句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Teacher: Wash the computer carefully. Tom: I study music always. Alice: Stop the document immediately! Tom: Take your hands.",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "陈述句",
+        "祈使句",
+        "祈使句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Boss: Listen the book quietly. Alice: What fantastic movie! Mary: I study the plan.",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "感叹句",
+        "陈述句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Teacher: Take the report immediately. Mary: What a wonderful surprise! Tom: The student need books often.",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "感叹句",
+        "陈述句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Alice: Study to me now! Alice: Incredible!",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "感叹句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Alice: How stupid she is! Teacher: Open the TV quietly! Alice: Shall we understand the way?",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "祈使句",
+        "疑问句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Alice: Close the letter quickly. Student: Is you remember the problem? Alice: How amazing they are!",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "疑问句",
+        "感叹句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "John: Stop to me immediately. Teacher: Could we study the problem?",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "疑问句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Student: Have she have the place? Mary: How wonderful she is! Alice: I know at home definitely. Alice: When has they study?",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "感叹句",
+        "陈述句",
+        "疑问句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Mary: How fantastic! Teacher: Go the dishes now! Boss: What an fantastic movie. Tom: We understood every day rarely.",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "祈使句",
+        "感叹句",
+        "陈述句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Tom: Will your friend do ? Teacher: Has the teacher work ?",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "疑问句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Alice: What beautiful day! Boss: Was the government believe ? Alice: How terrible he is! John: What beautiful day!",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "疑问句",
+        "感叹句",
+        "感叹句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "John: The weather understand at school sometimes. Employee: How fantastic it is! Student: Should the company do the movie? Boss: Give to me!",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "感叹句",
+        "疑问句",
+        "祈使句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "John: Who is the company like? Alice: Work the book quickly.",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "祈使句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "John: May it like the reason? Tom: Speak your room carefully! John: Give the report quietly.",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "祈使句",
+        "祈使句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Mary: What are she believe? Tom: Whom do we need? Employee: I had every day rarely.",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "疑问句",
+        "陈述句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "John: It understood at work always although The government do the solution. Teacher: Take the car at once. Tom: Tell the document now.",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "祈使句",
+        "祈使句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Mary: Stop the package right now. Boss: Fantastic this is unbelievable!",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "感叹句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "John: The dog think at night. Alice: May it come the problem? Mary: Fantastic this is fantastic! Alice: Have your brother remember the time?",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "疑问句",
+        "感叹句",
+        "疑问句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Tom: Was the government go ? John: Why were the government want? Employee: Stop to me immediately. John: Wash to me at once!",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "疑问句",
+        "祈使句",
+        "祈使句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Alice: Stop the phone now! Teacher: They hated the plan probably. Teacher: When you about this? Teacher: Come your hands now.",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "陈述句",
+        "疑问句",
+        "祈使句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Tom: What is she work the reason? John: The government went food usually. Tom: I come at home never. Alice: Might she know the way?",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "陈述句",
+        "陈述句",
+        "疑问句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Mary: What an beautiful day! Tom: Give the window at once. Alice: How wonderful you are! Student: Could we study the problem?",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "祈使句",
+        "感叹句",
+        "疑问句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Teacher: The government hated food definitely. Teacher: Write your hands before leaving!",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "祈使句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Tom: Clean the document. Employee: It reads books definitely. Alice: Shall it remember to the party?",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "陈述句",
+        "疑问句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Mary: Tell the document now. Tom: Will your brother like the answer?",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "疑问句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Teacher: You hate in the morning never when She think music. Boss: When has they study? Alice: What a terrible mistake.",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "疑问句",
+        "感叹句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Boss: Shall it remember to the party? John: How is they go? Teacher: What a terrible mistake!",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "疑问句",
+        "感叹句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Alice: Listen your mind at once. John: Leave the computer please.",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "祈使句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "John: They wanted sports sometimes. Student: How wonderful it is!",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "感叹句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Employee: What has she want about this? Mary: My friend have coffee. Alice: How wonderful you are!",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "陈述句",
+        "感叹句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "John: Did the company have ? John: What a fantastic movie! Employee: Should they work the way?",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "感叹句",
+        "疑问句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Student: Speak your room carefully! Alice: Has the government like the way? Tom: Unbelievable! Student: How rude they are!",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "疑问句",
+        "感叹句",
+        "感叹句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Student: I hate the solution often. Alice: What terrible mistake! Mary: How amazing!",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "感叹句",
+        "感叹句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Student: Will your brother like the answer? Mary: How kind! Student: Had the company believe the time?",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "感叹句",
+        "疑问句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Boss: Ask the package before leaving. Employee: Read the book at once.",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "祈使句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Employee: Show the window quietly. Employee: What an beautiful day!",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "感叹句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "John: What a terrible mistake. John: My friend did every day certainly. Mary: How clever!",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "陈述句",
+        "感叹句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Employee: How beautiful. Boss: Stop the car. Alice: Would the government study with that? Employee: What do it come?",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "祈使句",
+        "疑问句",
+        "疑问句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Student: How the way? Boss: What has the teacher study with that? Alice: What brilliant solution! Employee: Were it go the time?",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "疑问句",
+        "感叹句",
+        "疑问句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Teacher: How brilliant! Teacher: Shall the teacher do ? Teacher: My friend speak the answer certainly. Student: Is the company come the problem?",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "疑问句",
+        "陈述句",
+        "疑问句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Student: How beautiful. Employee: Open your hands carefully. Alice: Help the floor now.",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "祈使句",
+        "祈使句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Tom: You understand at school never. Alice: Should you do to the party.",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "疑问句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Boss: Wash the car! Alice: Has your brother need the problem?",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "疑问句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Student: Should you do to the party. Mary: Our company come the plan often. John: May it come the problem?",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "陈述句",
+        "疑问句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Teacher: How wonderful it is. Teacher: She believed coffee never.",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "陈述句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Teacher: You speak with friends. Student: The dog loved in the morning sometimes since I know in the morning.",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "陈述句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Alice: Why were it know to the party? John: Open your hands carefully.",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "祈使句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Alice: You understand at school never. Alice: Ask the letter right now.",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "祈使句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Alice: Why were it know to the party? Teacher: Show the light right now.",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "祈使句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Mary: How clever! Boss: Give the window at once. Boss: Our company believed with friends certainly.",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "祈使句",
+        "陈述句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Tom: Will your friend study with that? Mary: It reads books definitely. Student: What an wonderful surprise! Alice: Is you remember the problem?",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "陈述句",
+        "感叹句",
+        "疑问句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Student: Listen your mind at once. Teacher: Write the floor right now.",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "祈使句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Employee: Shall the teacher do ? Employee: Has the government like the way? Boss: Call the computer now. Alice: Is he want ?",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "疑问句",
+        "祈使句",
+        "疑问句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Employee: Would she do the solution? Boss: What do they remember with that? Teacher: Listen the dishes right now!",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "疑问句",
+        "祈使句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Alice: Incredible! Boss: The cat worked at night certainly while You do the plan. Alice: She come with friends rarely. Employee: What beautiful day!",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "陈述句",
+        "陈述句",
+        "感叹句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Student: Stop the package right now. Teacher: What fantastic movie! Employee: Wash your homework immediately!",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "感叹句",
+        "祈使句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "John: Would she do the solution? Mary: The cat wanted books never. Employee: Ask the package quietly. Tom: Wow that was fantastic!",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "陈述句",
+        "祈使句",
+        "感叹句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "John: You need tea sometimes. Tom: What wonderful surprise! Employee: I hate the solution often. Mary: How amazing they are!",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "感叹句",
+        "陈述句",
+        "感叹句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Teacher: How kind! John: Call the computer now.",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "祈使句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Student: Leave the report quietly! Mary: Tell the phone immediately.",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "祈使句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Employee: They know the idea probably. Employee: Had she believe ? Student: Write your hands before leaving! Employee: I had every day rarely.",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "疑问句",
+        "祈使句",
+        "陈述句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Teacher: Why? Mary: Go the letter quietly! Alice: The government studied books sometimes. Mary: Why is the company remember the time?",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "祈使句",
+        "陈述句",
+        "疑问句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Student: Write the car right now. Teacher: I studied every day probably. John: The government studied books sometimes.",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "陈述句",
+        "陈述句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Teacher: Stop your hands immediately! Tom: Work the computer!",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "祈使句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Boss: How fantastic! Mary: My friend did every day certainly. Student: The student like at work certainly since It like at school.",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "陈述句",
+        "陈述句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Tom: Which do the teacher do? Employee: Terrible this is fantastic!",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "感叹句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Student: Could we study the problem? John: Clean the light before leaving.",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "祈使句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Employee: The teacher worked the answer never. Mary: You believe at school often. Teacher: Was the government go ?",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "陈述句",
+        "疑问句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Employee: Could we study the problem? Alice: What do it come?",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "疑问句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Mary: The dog thought in the morning definitely. John: Is he want ? Boss: What beautiful day!",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "疑问句",
+        "感叹句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Tom: The cat worked at night certainly while You do the plan. Student: Stop the package right now. Student: What an wonderful surprise! Alice: Had the teacher know about this?",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "祈使句",
+        "感叹句",
+        "疑问句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Tom: My friend work the plan never. Tom: Oh my God! John: What an fantastic movie. Employee: Close the phone.",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "感叹句",
+        "感叹句",
+        "祈使句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Tom: Our company understood movies rarely while You hate the plan. Employee: Do we want with that? Mary: We understood every day rarely. Tom: The cat want at work certainly.",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "疑问句",
+        "陈述句",
+        "陈述句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Teacher: Close the computer now! Employee: They understood at work usually.",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "陈述句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Alice: Was the government believe ? Tom: Read the window quickly! Mary: What amazing performance! Teacher: Take the car at once.",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "祈使句",
+        "感叹句",
+        "祈使句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Student: Had the company believe the time? Alice: They work books rarely when The teacher study movies. John: I can't believe you are incredible!",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "陈述句",
+        "感叹句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Mary: I had every day rarely. John: What a stupid decision! John: How kind he is! Teacher: Could we study the problem?",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "感叹句",
+        "感叹句",
+        "疑问句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Teacher: What an fantastic movie. Boss: Bring the floor.",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "祈使句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Employee: We hated at school often. Tom: Our company come the plan often. Tom: Has you study ? Employee: She listens the solution rarely.",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "陈述句",
+        "疑问句",
+        "陈述句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Alice: They go the answer sometimes. John: Wow that was unbelievable! Employee: The government hated food definitely.",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "感叹句",
+        "陈述句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Mary: We hated at school often. John: Go the letter quietly! Teacher: Write your hands before leaving!",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "祈使句",
+        "祈使句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Mary: Must your friend remember the solution? Boss: Whom has your brother come the solution? Employee: How is they go? Mary: Go the dishes now!",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "疑问句",
+        "疑问句",
+        "祈使句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "John: Unbelievable it is amazing. Boss: The dog hate at work always. John: Close your room at once! Student: You spoke in the morning rarely.",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "陈述句",
+        "祈使句",
+        "陈述句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Boss: Which has you come the answer? John: Speak your room carefully! Teacher: Tell the phone immediately. Teacher: The cat want at work certainly.",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "祈使句",
+        "祈使句",
+        "陈述句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Student: Have she have the place? Alice: Who the teacher? Alice: Close the computer now!",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "疑问句",
+        "祈使句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Teacher: Fantastic it is fantastic! Student: Write the car right now.",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "祈使句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "John: Why the company? Alice: What a amazing performance! Teacher: Wash the car! Mary: The weather understand at school sometimes.",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "感叹句",
+        "祈使句",
+        "陈述句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Student: What amazing performance. Alice: I want at night never.",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "陈述句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Tom: Why you? Mary: My friend did every day certainly. Tom: Should the company do the movie? Employee: He wants the answer never.",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "陈述句",
+        "疑问句",
+        "陈述句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Student: Is the government want the reason? Alice: She listens the solution rarely. Employee: Shall it remember to the party? Alice: What have the teacher want?",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "陈述句",
+        "疑问句",
+        "疑问句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Employee: Fantastic! Employee: How stupid she is!",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "感叹句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Alice: I came at home usually. Student: How clever you are!",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "感叹句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Student: Open the dishes. Boss: The teacher go with friends often.",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "陈述句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Student: Wash the computer carefully. Teacher: Is you remember the problem?",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "疑问句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Teacher: Whom do we need? Student: What an horrible accident. Tom: When does know? Mary: He dos the solution always.",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "感叹句",
+        "疑问句",
+        "陈述句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Employee: Stop the report right now. Teacher: Terrible you are amazing! Employee: Give the window at once.",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "感叹句",
+        "祈使句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "John: He wants the answer never. Teacher: The government spoke music never. Employee: The teacher work with friends definitely although The government need music.",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "陈述句",
+        "陈述句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Employee: Has the government like the way? Boss: What has she want about this? John: Go the dishes now!",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "疑问句",
+        "祈使句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Tom: Come your hands now. Mary: Shall it remember to the party? Mary: Is they like the way?",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "疑问句",
+        "疑问句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Mary: Wait the report quickly. Boss: It understood at work always although The government do the solution. Student: How amazing! Mary: Ask the package quietly.",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "陈述句",
+        "感叹句",
+        "祈使句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Tom: The teacher work with friends definitely although The government need music. Employee: Have your brother remember the time? Teacher: Clean the light before leaving.",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "疑问句",
+        "祈使句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Mary: Take the report immediately. Student: How rude they are!",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "感叹句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Alice: The teacher had every day definitely when The dog read at work. Employee: How is they go?",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "疑问句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "John: Where were have the answer? Employee: Wash your homework immediately!",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "祈使句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Mary: Has your brother need the problem? Teacher: The dog do at school. Boss: It reads books definitely.",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "陈述句",
+        "陈述句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Alice: What fantastic movie! Tom: What a terrible mistake. Alice: What a fantastic movie! Employee: She listens the solution rarely.",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "感叹句",
+        "感叹句",
+        "陈述句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Boss: Was the government go ? John: Was the government believe ? John: Were it go the time? Mary: Give the report quietly.",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "疑问句",
+        "疑问句",
+        "祈使句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Student: Should they work the way? John: Read the book at once. Tom: What a fantastic movie! Alice: Work the book quickly.",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "祈使句",
+        "感叹句",
+        "祈使句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "John: Our company liked at night definitely. Tom: My friend work the plan never. Boss: Terrible!",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "陈述句",
+        "感叹句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Employee: Terrible this is fantastic! John: I want at night never.",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "陈述句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Tom: The cat study books rarely. Student: The teacher worked the plan never. Student: Write your hands before leaving! Tom: Stop your hands immediately!",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "陈述句",
+        "祈使句",
+        "祈使句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "John: They wanted sports sometimes. Student: It wants the solution always.",
+      "type": "dialogue",
+      "expected_labels": [
+        "陈述句",
+        "陈述句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Mary: Whom your friend to the party? John: Which the teacher?",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "疑问句"
+      ],
+      "sentence_count": 2
+    },
+    {
+      "text": "Teacher: Open the letter at once! Mary: Oh my God that was amazing! John: Terrible!",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "感叹句",
+        "感叹句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "John: Bring the letter please. Student: How the movie? Student: Might you think ?",
+      "type": "dialogue",
+      "expected_labels": [
+        "祈使句",
+        "疑问句",
+        "疑问句"
+      ],
+      "sentence_count": 3
+    },
+    {
+      "text": "Employee: What an terrible mistake! Boss: How fantastic! Alice: How did go. Alice: Stop the book right now.",
+      "type": "dialogue",
+      "expected_labels": [
+        "感叹句",
+        "感叹句",
+        "疑问句",
+        "祈使句"
+      ],
+      "sentence_count": 4
+    },
+    {
+      "text": "Teacher: Why do your brother study the place? Mary: Bring the letter please. Teacher: Give the computer quietly. Employee: What an fantastic movie.",
+      "type": "dialogue",
+      "expected_labels": [
+        "疑问句",
+        "祈使句",
+        "祈使句",
+        "感叹句"
+      ],
+      "sentence_count": 4
+    }
+  ]
+}

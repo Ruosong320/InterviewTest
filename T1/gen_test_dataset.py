@@ -1,8 +1,10 @@
 import random
 import json
 from pathlib import Path
+from typing import List, Tuple, Dict, Union
+import os
 
-def generate_imperative_sentences(count=250):
+def generate_imperative_sentences(count=250) -> List[Tuple[str, str]]:
     """生成祈使句"""
     sentences = []
     
@@ -29,7 +31,7 @@ def generate_imperative_sentences(count=250):
     
     return sentences
 
-def generate_interrogative_sentences(count=250):
+def generate_interrogative_sentences(count=250) -> List[Tuple[str, str]]:
     """生成疑问句"""
     sentences = []
     
@@ -74,7 +76,7 @@ def generate_interrogative_sentences(count=250):
     
     return sentences
 
-def generate_declarative_sentences(count=250):
+def generate_declarative_sentences(count=250) -> List[Tuple[str, str]]:
     """生成陈述句"""
     sentences = []
     
@@ -131,7 +133,7 @@ def generate_declarative_sentences(count=250):
     
     return sentences
 
-def generate_exclamatory_sentences(count=250):
+def generate_exclamatory_sentences(count=250) -> List[Tuple[str, str]]:
     """生成感叹句"""
     sentences = []
     
@@ -177,9 +179,9 @@ def generate_exclamatory_sentences(count=250):
     
     return sentences
 
-def generate_test_data(total=1000):
-    """生成测试数据"""
-    print(f"生成 {total} 条测试数据...")
+def generate_single_sentences(total=1000) -> List[Dict[str, Union[str, List[str]]]]:
+    """生成单句子测试数据"""
+    print(f"生成 {total} 条单句子测试数据...")
     
     # 计算各类别的数量（大致平均分布）
     each_count = total // 4
@@ -196,33 +198,180 @@ def generate_test_data(total=1000):
     # 打乱顺序
     random.shuffle(all_data)
     
-    # 保存到文件
-    output_file = Path("test_data.json")
+    # 转换为标准格式
+    data_to_save = []
+    for sentence, label in all_data:
+        data_to_save.append({
+            "text": sentence,
+            "type": "single",
+            "expected_labels": [label],
+            "sentence_count": 1
+        })
     
-    # 保存为JSON格式
-    data_to_save = [{"sentence": s, "label": l} for s, l in all_data]
+    return data_to_save
+
+def generate_paragraphs(paragraph_count=200, min_sentences=2, max_sentences=5) -> List[Dict[str, Union[str, List[str]]]]:
+    """生成多句子段落测试数据"""
+    print(f"生成 {paragraph_count} 个段落测试数据...")
     
-    with open(output_file, 'w', encoding='utf-8') as f:
-        json.dump(data_to_save, f, ensure_ascii=False, indent=2)
+    # 先生成大量的单句子
+    single_sentences = []
+    single_sentences.extend(generate_imperative_sentences(100))
+    single_sentences.extend(generate_interrogative_sentences(100))
+    single_sentences.extend(generate_declarative_sentences(100))
+    single_sentences.extend(generate_exclamatory_sentences(100))
     
-    print(f"测试数据已保存到: {output_file}")
+    paragraphs = []
     
-    # 统计信息
-    counts = {
-        "祈使句": len(imperative),
-        "疑问句": len(interrogative),
-        "陈述句": len(declarative),
-        "感叹句": len(exclamatory)
+    for i in range(paragraph_count):
+        # 随机决定段落中的句子数量
+        sentence_count = random.randint(min_sentences, max_sentences)
+        
+        # 随机选择句子
+        selected_sentences = random.sample(single_sentences, sentence_count)
+        
+        # 构建段落文本和标签列表
+        paragraph_text = ""
+        expected_labels = []
+        
+        for j, (sentence, label) in enumerate(selected_sentences):
+            # 确保句子以合适的标点结束
+            if not sentence[-1] in ['.', '!', '?']:
+                sentence += '.'
+            
+            # 将句子添加到段落中，并在句子间添加空格
+            if j > 0:
+                paragraph_text += " "
+            paragraph_text += sentence
+            
+            expected_labels.append(label)
+        
+        paragraphs.append({
+            "text": paragraph_text,
+            "type": "paragraph",
+            "expected_labels": expected_labels,
+            "sentence_count": sentence_count
+        })
+    
+    return paragraphs
+
+def generate_mixed_dialogue(dialogue_count=100, min_exchanges=2, max_exchanges=4) -> List[Dict[str, Union[str, List[str]]]]:
+    """生成对话式混合段落"""
+    print(f"生成 {dialogue_count} 个对话式段落测试数据...")
+    
+    # 所有类型的句子
+    all_sentences = []
+    all_sentences.extend(generate_imperative_sentences(100))
+    all_sentences.extend(generate_interrogative_sentences(100))
+    all_sentences.extend(generate_declarative_sentences(100))
+    all_sentences.extend(generate_exclamatory_sentences(100))
+    
+    dialogues = []
+    speakers = ["John", "Mary", "Tom", "Alice", "Teacher", "Student", "Boss", "Employee"]
+    
+    for i in range(dialogue_count):
+        # 随机决定对话轮次
+        exchange_count = random.randint(min_exchanges, max_exchanges)
+        
+        dialogue_text = ""
+        expected_labels = []
+        
+        for j in range(exchange_count):
+            # 随机选择说话者和句子
+            speaker = random.choice(speakers)
+            sentence, label = random.choice(all_sentences)
+            
+            # 确保句子以合适的标点结束
+            if not sentence[-1] in ['.', '!', '?']:
+                sentence += '.'
+            
+            # 构建对话行
+            if j > 0:
+                dialogue_text += " "
+            dialogue_text += f"{speaker}: {sentence}"
+            
+            expected_labels.append(label)
+        
+        dialogues.append({
+            "text": dialogue_text,
+            "type": "dialogue",
+            "expected_labels": expected_labels,
+            "sentence_count": exchange_count
+        })
+    
+    return dialogues
+
+def generate_test_data(total=1000, include_paragraphs=True, include_dialogues=True) -> Dict[str, List]:
+    """生成测试数据集"""
+    print(f"开始生成测试数据...")
+    
+    # 确保有足够的数据
+    base_count = total // 3 if include_paragraphs or include_dialogues else total
+    
+    # 生成单句子数据
+    single_data = generate_single_sentences(base_count)
+    
+    all_data = {
+        "single_sentences": single_data,
+        "paragraphs": [],
+        "dialogues": []
     }
     
-    print("\n数据分布统计:")
-    for label, count in counts.items():
-        print(f"  {label}: {count} 条")
+    # 生成段落数据（如果需要）
+    if include_paragraphs:
+        paragraph_count = total // 4
+        all_data["paragraphs"] = generate_paragraphs(paragraph_count)
+    
+    # 生成对话数据（如果需要）
+    if include_dialogues:
+        dialogue_count = total // 4
+        all_data["dialogues"] = generate_mixed_dialogue(dialogue_count)
+    
+    # 获取当前脚本所在目录，并创建test_data子目录
+    current_dir = Path(__file__).parent
+    test_data_dir = current_dir / "test_data"
+    test_data_dir.mkdir(exist_ok=True)
+    
+    # 保存到文件
+    output_files = {}
+    
+    # 保存单句子数据
+    single_output = test_data_dir / "test_data_single.json"
+    with open(single_output, 'w', encoding='utf-8') as f:
+        json.dump(single_data, f, ensure_ascii=False, indent=2)
+    output_files["single"] = single_output
+    
+    # 保存完整数据
+    full_output = test_data_dir / "test_data_full.json"
+    with open(full_output, 'w', encoding='utf-8') as f:
+        json.dump(all_data, f, ensure_ascii=False, indent=2)
+    output_files["full"] = full_output
+    
+    # 打印统计信息
+    print(f"\n测试数据生成完成!")
+    print(f"单句子数据: {len(single_data)} 条")
+    print(f"段落数据: {len(all_data['paragraphs'])} 个")
+    print(f"对话数据: {len(all_data['dialogues'])} 个")
+    
+    # 计算句子总数
+    total_sentences = len(single_data)
+    for paragraph in all_data["paragraphs"]:
+        total_sentences += paragraph["sentence_count"]
+    for dialogue in all_data["dialogues"]:
+        total_sentences += dialogue["sentence_count"]
+    
+    print(f"总句子数: {total_sentences}")
+    print(f"输出文件:")
+    for key, path in output_files.items():
+        print(f"  {key}: {path}")
     
     return all_data
 
-
 if __name__ == "__main__":
-    # 生成1000条测试数据
-    generate_test_data(1000)
-    
+    # 生成完整测试数据
+    print("="*50)
+    test_data = generate_test_data(
+        total=1000,
+        include_paragraphs=True,
+        include_dialogues=True
+    )
