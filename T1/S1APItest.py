@@ -1,4 +1,5 @@
-from Task1_Solve1 import classify_text
+#from Task1_Solve1 import classify_text
+from Task1_Solve2 import classify_text
 
 # 测试数据
 test_sentences = [
