@@ -1,7 +1,11 @@
 import os
 os.environ['HTTP_PROXY'] = 'http://127.0.0.1:1080'
 os.environ['HTTPS_PROXY'] = 'http://127.0.0.1:1080'
-
+import logging
+logging.getLogger("transformers").setLevel(logging.ERROR)
+logging.getLogger("datasets").setLevel(logging.ERROR)
+import warnings
+warnings.filterwarnings("ignore")
 # scheme_hf.py
 from transformers import DetrImageProcessor, TableTransformerForObjectDetection
 from PIL import Image
@@ -31,7 +35,7 @@ def detect_with_hf(image_path: str):
     # 后处理：转换坐标
     target_sizes = torch.tensor([image.size[::-1]])
     
-    results = processor.post_process_object_detection(outputs, threshold=0.35, target_sizes=target_sizes)[0]
+    results = processor.post_process_object_detection(outputs, threshold=0.05, target_sizes=target_sizes)[0]
 
     detections = []
     

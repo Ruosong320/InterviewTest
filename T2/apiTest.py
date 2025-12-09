@@ -4,7 +4,8 @@ import time
 
 # --- 配置 ---
 API_URL = "http://127.0.0.1:8000/api/v1/capture_and_locate" #api地址
-TEST_URL = "https://baijiahao.baidu.com/s?id=1804062717515460724&wfr=spider&for=pc" #测试网页
+#TEST_URL = "https://baijiahao.baidu.com/s?id=1804062717515460724&wfr=spider&for=pc" #测试网页
+TEST_URL = "https://www.joca.cn/CN/column/column17.shtml"
 OUTPUT_DIR = "results" 
 # --------------
 
@@ -21,7 +22,7 @@ def main():
     # 准备请求数据
     payload = {
         "url": TEST_URL,
-        "scheme": "hf"
+        "scheme": "yolo"   # 切换为yolo使用yolo模式 hf为使用table-transformer-detection
     }
     
     try:
