@@ -12,13 +12,6 @@ from sklearn.pipeline import Pipeline, FeatureUnion
 from sklearn.svm import LinearSVC
 from sklearn.preprocessing import MinMaxScaler
 
-# ==========================================
-# 配置和初始化
-# ==========================================
-
-# 统一测试数据文件路径
-current_script_dir = Path(__file__).resolve().parent
-TEST_DATA_FILE = current_script_dir / 'test_data.json'
 
 # ==========================================
 # 1. 特征工程 (Feature Engineering)

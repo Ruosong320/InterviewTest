@@ -9,7 +9,8 @@ current_dir = Path(__file__).parent
 sys.path.insert(0, str(current_dir))
 
 #from Task1_Solve1 import SentenceClassifier, classify_text
-from Task1_Solve2 import SentenceClassifier, classify_text
+#from Task1_Solve2 import SentenceClassifier, classify_text
+from Task1_Solve3 import SentenceClassifier, classify_text
 
 
 def load_test_data(file_path: Path) -> List[Dict]:
